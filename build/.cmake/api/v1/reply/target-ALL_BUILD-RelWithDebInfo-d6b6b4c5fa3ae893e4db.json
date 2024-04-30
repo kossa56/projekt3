@@ -1,0 +1,277 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"opencv/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "libopenjp2::@67019544cad6bdcfbca6"
+		},
+		{
+			"id" : "jsimd::@c17b0034bdb2c15f4716"
+		},
+		{
+			"id" : "opencv_imgproc_SSE4_1::@fed5f73d5ce96833c910"
+		},
+		{
+			"id" : "opencv_imgproc_AVX::@fed5f73d5ce96833c910"
+		},
+		{
+			"id" : "opencv_test_imgproc::@fed5f73d5ce96833c910"
+		},
+		{
+			"id" : "opencv_perf_imgproc::@fed5f73d5ce96833c910"
+		},
+		{
+			"id" : "opencv_flann::@7028bacebdfe69c62e6d"
+		},
+		{
+			"id" : "opencv_test_flann::@7028bacebdfe69c62e6d"
+		},
+		{
+			"id" : "opencv_test_core::@dbec0c1fcd92e41cafe4"
+		},
+		{
+			"id" : "opencv_test_core_AVX512_SKX::@dbec0c1fcd92e41cafe4"
+		},
+		{
+			"id" : "opencv_test_core_AVX2::@dbec0c1fcd92e41cafe4"
+		},
+		{
+			"id" : "opencv_imgproc_AVX2::@fed5f73d5ce96833c910"
+		},
+		{
+			"id" : "opencv_imgproc::@fed5f73d5ce96833c910"
+		},
+		{
+			"id" : "opencv_imgproc_AVX512_SKX::@fed5f73d5ce96833c910"
+		},
+		{
+			"id" : "opencv_test_core_FP16::@dbec0c1fcd92e41cafe4"
+		},
+		{
+			"id" : "opencv_perf_core::@dbec0c1fcd92e41cafe4"
+		},
+		{
+			"id" : "opencv_test_core_AVX::@dbec0c1fcd92e41cafe4"
+		},
+		{
+			"id" : "opencv_highgui_plugins::@6c6ca097bd0c4b839919"
+		},
+		{
+			"id" : "opencv_dnn_plugins::@6c6ca097bd0c4b839919"
+		},
+		{
+			"id" : "opencv_videoio_plugins::@4c0df8ee421b6c43481f"
+		},
+		{
+			"id" : "opencv_core_AVX512_SKX::@dbec0c1fcd92e41cafe4"
+		},
+		{
+			"id" : "opencv_core_SSE4_2::@dbec0c1fcd92e41cafe4"
+		},
+		{
+			"id" : "opencv_core_AVX2::@dbec0c1fcd92e41cafe4"
+		},
+		{
+			"id" : "opencv_core::@dbec0c1fcd92e41cafe4"
+		},
+		{
+			"id" : "opencv_core_SSE4_1::@dbec0c1fcd92e41cafe4"
+		},
+		{
+			"id" : "opencv_test_core_SSE2::@dbec0c1fcd92e41cafe4"
+		},
+		{
+			"id" : "opencv_core_AVX::@dbec0c1fcd92e41cafe4"
+		},
+		{
+			"id" : "opencv_test_core_SSE4_1::@dbec0c1fcd92e41cafe4"
+		},
+		{
+			"id" : "opencv_test_core_SSE4_2::@dbec0c1fcd92e41cafe4"
+		},
+		{
+			"id" : "opencv_test_core_SSE3::@dbec0c1fcd92e41cafe4"
+		},
+		{
+			"id" : "opencv_dnn_AVX512_SKX::@fd597e81ab51c72c6bde"
+		},
+		{
+			"id" : "opencv_perf_dnn::@fd597e81ab51c72c6bde"
+		},
+		{
+			"id" : "opencv_features2d::@9d6d9d77b6df17fa6cf4"
+		},
+		{
+			"id" : "opencv_perf_features2d::@9d6d9d77b6df17fa6cf4"
+		},
+		{
+			"id" : "opencv_features2d_SSE4_1::@9d6d9d77b6df17fa6cf4"
+		},
+		{
+			"id" : "opencv_perf_imgcodecs::@c0ae2f00d71b37ddf62d"
+		},
+		{
+			"id" : "opencv_features2d_AVX512_SKX::@9d6d9d77b6df17fa6cf4"
+		},
+		{
+			"id" : "opencv_ml::@95ddf64f7e462a576d12"
+		},
+		{
+			"id" : "opencv_test_ml::@95ddf64f7e462a576d12"
+		},
+		{
+			"id" : "opencv_test_photo::@7b5da6599191da7e5e1d"
+		},
+		{
+			"id" : "opencv_perf_photo::@7b5da6599191da7e5e1d"
+		},
+		{
+			"id" : "opencv_photo::@7b5da6599191da7e5e1d"
+		},
+		{
+			"id" : "opencv_dnn_AVX::@fd597e81ab51c72c6bde"
+		},
+		{
+			"id" : "opencv_dnn_AVX2::@fd597e81ab51c72c6bde"
+		},
+		{
+			"id" : "opencv_dnn::@fd597e81ab51c72c6bde"
+		},
+		{
+			"id" : "opencv_test_dnn::@fd597e81ab51c72c6bde"
+		},
+		{
+			"id" : "opencv_features2d_AVX2::@9d6d9d77b6df17fa6cf4"
+		},
+		{
+			"id" : "opencv_test_features2d::@9d6d9d77b6df17fa6cf4"
+		},
+		{
+			"id" : "opencv_imgcodecs::@c0ae2f00d71b37ddf62d"
+		},
+		{
+			"id" : "opencv_test_imgcodecs::@c0ae2f00d71b37ddf62d"
+		},
+		{
+			"id" : "opencv_test_videoio::@c5faa4280b2b7a09d203"
+		},
+		{
+			"id" : "opencv_perf_videoio::@c5faa4280b2b7a09d203"
+		},
+		{
+			"id" : "opencv_calib3d_AVX2::@f733cfe29491943c6f90"
+		},
+		{
+			"id" : "opencv_calib3d::@f733cfe29491943c6f90"
+		},
+		{
+			"id" : "opencv_test_calib3d::@f733cfe29491943c6f90"
+		},
+		{
+			"id" : "opencv_videoio::@c5faa4280b2b7a09d203"
+		},
+		{
+			"id" : "opencv_perf_calib3d::@f733cfe29491943c6f90"
+		},
+		{
+			"id" : "opencv_video::@97ed06ab1a373208393a"
+		},
+		{
+			"id" : "opencv_test_objdetect::@d8b356daef1c8683e951"
+		},
+		{
+			"id" : "opencv_stitching::@f67afe3f4b1481ef3f2e"
+		},
+		{
+			"id" : "opencv_gapi_AVX2::@15a4d0119d6b2dbe4d6a"
+		},
+		{
+			"id" : "opencv_test_gapi::@15a4d0119d6b2dbe4d6a"
+		},
+		{
+			"id" : "opencv_test_stitching::@f67afe3f4b1481ef3f2e"
+		},
+		{
+			"id" : "opencv_test_video::@97ed06ab1a373208393a"
+		},
+		{
+			"id" : "opencv_perf_video::@97ed06ab1a373208393a"
+		},
+		{
+			"id" : "opencv_perf_stitching::@f67afe3f4b1481ef3f2e"
+		},
+		{
+			"id" : "opencv_test_highgui::@248529d3dfb903c2c9d7"
+		},
+		{
+			"id" : "opencv_highgui::@248529d3dfb903c2c9d7"
+		},
+		{
+			"id" : "opencv_perf_objdetect::@d8b356daef1c8683e951"
+		},
+		{
+			"id" : "opencv_ts::@113a70d24f35160ad842"
+		},
+		{
+			"id" : "opencv_objdetect::@d8b356daef1c8683e951"
+		},
+		{
+			"id" : "opencv_gapi_SSE4_1::@15a4d0119d6b2dbe4d6a"
+		},
+		{
+			"id" : "opencv_gapi::@15a4d0119d6b2dbe4d6a"
+		},
+		{
+			"id" : "opencv_perf_gapi::@15a4d0119d6b2dbe4d6a"
+		},
+		{
+			"id" : "opencv_model_diagnostics::@405fa73cc298a70ab2cd"
+		},
+		{
+			"id" : "opencv_interactive-calibration::@e9f7c6de3cfe8d4033eb"
+		},
+		{
+			"id" : "opencv_annotation::@3f7cb51c6cd620e15b9e"
+		},
+		{
+			"id" : "opencv_version_win32::@735469223714a7680386"
+		},
+		{
+			"id" : "opencv_visualisation::@a9bacdffdf1689e064ad"
+		},
+		{
+			"id" : "opencv_version::@735469223714a7680386"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "CMakeTargets"
+	},
+	"id" : "ALL_BUILD::@6c6ca097bd0c4b839919",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "opencv",
+		"source" : "opencv"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

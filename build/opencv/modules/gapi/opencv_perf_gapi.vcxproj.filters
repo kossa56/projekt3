@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\build\opencv\modules\gapi\CMakeFiles\opencv_perf_gapi.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\gapi\perf\common\gapi_core_perf_tests.cpp">
+      <Filter>Src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\gapi\perf\common\gapi_imgproc_perf_tests.cpp">
+      <Filter>Src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\gapi\perf\common\gapi_render_perf_tests.cpp">
+      <Filter>Src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\gapi\perf\common\gapi_video_perf_tests.cpp">
+      <Filter>Src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\gapi\perf\cpu\gapi_core_perf_tests_cpu.cpp">
+      <Filter>Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\gapi\perf\cpu\gapi_core_perf_tests_fluid.cpp">
+      <Filter>Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\gapi\perf\cpu\gapi_imgproc_perf_tests_cpu.cpp">
+      <Filter>Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\gapi\perf\cpu\gapi_imgproc_perf_tests_fluid.cpp">
+      <Filter>Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\gapi\perf\cpu\gapi_video_perf_tests_cpu.cpp">
+      <Filter>Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\gapi\perf\gpu\gapi_core_perf_tests_gpu.cpp">
+      <Filter>Src\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\gapi\perf\gpu\gapi_imgproc_perf_tests_gpu.cpp">
+      <Filter>Src\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\gapi\perf\internal\gapi_compiler_perf_tests.cpp">
+      <Filter>Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\gapi\perf\perf_bench.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\gapi\perf\perf_main.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\gapi\perf\render\gapi_render_perf_tests_ocv.cpp">
+      <Filter>Src\render</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\gapi\perf\streaming\gapi_streaming_source_perf_tests.cpp">
+      <Filter>Src\streaming</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\gapi\perf\common\gapi_core_perf_tests.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\gapi\perf\common\gapi_core_perf_tests_inl.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\gapi\perf\common\gapi_imgproc_perf_tests.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\gapi\perf\common\gapi_imgproc_perf_tests_inl.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\gapi\perf\common\gapi_render_perf_tests.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\gapi\perf\common\gapi_render_perf_tests_inl.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\gapi\perf\common\gapi_video_perf_tests.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\gapi\perf\common\gapi_video_perf_tests_inl.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\gapi\perf\perf_precomp.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\build\opencv\modules\gapi\CMakeFiles\opencv_perf_gapi.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\build\opencv\modules\gapi\CMakeFiles\opencv_perf_gapi.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\build\opencv\modules\gapi\CMakeFiles\opencv_perf_gapi.dir\MinSizeRel\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\build\opencv\modules\gapi\CMakeFiles\opencv_perf_gapi.dir\RelWithDebInfo\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\michal\Desktop\projekt3\opencv\modules\gapi\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{34DE6A4A-0E6B-352A-965C-75CB2866D76A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\common">
+      <UniqueIdentifier>{56D1ECC1-8F9F-35A5-9AE4-9CE310617531}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{F52DD6B4-867E-3479-B4AC-BA591D70ED88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{48ED3A26-D496-3A97-8332-E5965EF701BB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{A02A777F-D498-394C-9DB0-0220D6179076}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\common">
+      <UniqueIdentifier>{C8F5366E-02AA-3510-9598-A45972851C2D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\cpu">
+      <UniqueIdentifier>{A9FD623C-917B-3A26-A2EC-450DD4A75541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\gpu">
+      <UniqueIdentifier>{BF7B30F5-5670-3F5B-B44D-C918C108C47D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\internal">
+      <UniqueIdentifier>{3DB751BD-29D4-3BCB-AB0F-84F5620C90F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\render">
+      <UniqueIdentifier>{8CAFC4C5-C302-334A-8028-C59B72ECDB3C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\streaming">
+      <UniqueIdentifier>{4D24B9F4-8655-31E0-938F-5F12AAA5BCCA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

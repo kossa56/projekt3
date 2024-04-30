@@ -1,0 +1,357 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "opencv/modules/core/opencv_core_AVX.dir/RelWithDebInfo/mathfuncs_core.avx.obj"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"ocv_compiler_optimization_process_sources",
+			"_ocv_create_module",
+			"ocv_create_module",
+			"set_target_properties",
+			"add_definitions",
+			"ocv_add_module",
+			"include",
+			"include_directories",
+			"ocv_include_directories",
+			"target_include_directories",
+			"set_source_files_properties"
+		],
+		"files" : 
+		[
+			"opencv/cmake/OpenCVCompilerOptimizations.cmake",
+			"opencv/cmake/OpenCVModule.cmake",
+			"opencv/modules/core/CMakeLists.txt",
+			"opencv/cmake/OpenCVCompilerOptions.cmake",
+			"opencv/CMakeLists.txt",
+			"opencv/cmake/OpenCVUtils.cmake",
+			"opencv/cmake/OpenCVFindLibsPerf.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 166,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 905,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 935,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 795,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 797,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 145,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 53,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 34,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 217,
+				"parent" : 8
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 671,
+				"parent" : 10
+			},
+			{
+				"file" : 3,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 472,
+				"parent" : 12
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 484,
+				"parent" : 12
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 933,
+				"parent" : 2
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 820,
+				"parent" : 10
+			},
+			{
+				"file" : 6,
+				"parent" : 16
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 19,
+				"parent" : 17
+			},
+			{
+				"command" : 8,
+				"file" : 5,
+				"line" : 315,
+				"parent" : 18
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 16,
+				"parent" : 17
+			},
+			{
+				"command" : 8,
+				"file" : 5,
+				"line" : 315,
+				"parent" : 20
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 799,
+				"parent" : 3
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 640,
+				"parent" : 10
+			},
+			{
+				"command" : 8,
+				"file" : 5,
+				"line" : 312,
+				"parent" : 23
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 744,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " /DWIN32 /D_WINDOWS /W4 /GR  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise     /EHa /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589 /wd4819 /MP /MD /Zi /O2 /Ob1 /DNDEBUG"
+				},
+				{
+					"fragment" : "     /arch:AVX"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "CV_CPU_COMPILE_AVX=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "CV_CPU_COMPILE_POPCNT=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "CV_CPU_COMPILE_SSE4_1=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "CV_CPU_COMPILE_SSE4_2=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "CV_CPU_COMPILE_SSSE3=1"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "CV_CPU_DISPATCH_MODE=AVX"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "OPENCV_ALLOCATOR_STATS_COUNTER_TYPE=long long"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "OPENCV_WITH_ITT=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "_VARIADIC_MAX=10"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "_WIN32_WINNT=0x0601"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "__OPENCV_BUILD=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/michal/Desktop/projekt3/build/opencv/3rdparty/ippicv/ippicv_win/icv/include"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "C:/Users/michal/Desktop/projekt3/build/opencv/3rdparty/ippicv/ippicv_win/iw/include"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "C:/Users/michal/Desktop/projekt3/opencv/modules/core/src"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "C:/Users/michal/Desktop/projekt3/opencv/modules/core/include"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "C:/Users/michal/Desktop/projekt3/build/opencv/modules/core"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "C:/Users/michal/Desktop/projekt3/opencv/3rdparty/zlib"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "C:/Users/michal/Desktop/projekt3/build/opencv/3rdparty/zlib"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "C:/Users/michal/Desktop/projekt3/opencv/3rdparty/include/opencl/1.2"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "C:/Users/michal/Desktop/projekt3/opencv/3rdparty/ittnotify/include"
+				},
+				{
+					"backtrace" : 24,
+					"isSystem" : true,
+					"path" : "C:/Users/michal/Desktop/projekt3/build"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					4
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "dispatched"
+	},
+	"id" : "opencv_core_AVX::@dbec0c1fcd92e41cafe4",
+	"name" : "opencv_core_AVX",
+	"paths" : 
+	{
+		"build" : "opencv/modules/core",
+		"source" : "opencv/modules/core"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "build/opencv/modules/core/mathfuncs_core.avx.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

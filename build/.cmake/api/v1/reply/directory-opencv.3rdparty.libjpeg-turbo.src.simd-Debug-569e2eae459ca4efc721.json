@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "opencv/3rdparty/libjpeg-turbo/src/simd",
+		"source" : "opencv/3rdparty/libjpeg-turbo/src/simd"
+	}
+}

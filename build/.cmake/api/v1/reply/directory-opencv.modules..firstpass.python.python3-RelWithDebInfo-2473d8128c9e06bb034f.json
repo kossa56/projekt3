@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "opencv/modules/.firstpass/python/python3",
+		"source" : "opencv/modules/python/python3"
+	}
+}

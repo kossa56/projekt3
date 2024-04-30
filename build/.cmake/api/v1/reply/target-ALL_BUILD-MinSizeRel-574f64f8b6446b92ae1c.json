@@ -1,0 +1,46 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"opencv/modules/photo/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "opencv_test_photo::@7b5da6599191da7e5e1d"
+		},
+		{
+			"id" : "opencv_perf_photo::@7b5da6599191da7e5e1d"
+		},
+		{
+			"id" : "opencv_photo::@7b5da6599191da7e5e1d"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "CMakeTargets"
+	},
+	"id" : "ALL_BUILD::@7b5da6599191da7e5e1d",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "opencv/modules/photo",
+		"source" : "opencv/modules/photo"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

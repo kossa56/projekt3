@@ -1,0 +1,114 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/michal/Desktop/projekt3/build/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/cmake_pch.cxx"
+		},
+		{
+			"file" : "C:/Users/michal/Desktop/projekt3/opencv/modules/highgui/include/opencv2/highgui.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_highgui",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/Users/michal/Desktop/projekt3/opencv/modules/highgui/include/opencv2/highgui/highgui.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_highgui",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/Users/michal/Desktop/projekt3/opencv/modules/highgui/include/opencv2/highgui/highgui_c.h",
+			"labels" : 
+			[
+				"Main",
+				"opencv_highgui",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/Users/michal/Desktop/projekt3/opencv/modules/highgui/src/backend.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_highgui",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/Users/michal/Desktop/projekt3/opencv/modules/highgui/src/window.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_highgui",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/Users/michal/Desktop/projekt3/opencv/modules/highgui/src/roiSelector.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_highgui",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/Users/michal/Desktop/projekt3/opencv/modules/highgui/src/window_w32.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_highgui",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/Users/michal/Desktop/projekt3/opencv/modules/highgui/src/precomp.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_highgui",
+				"Module"
+			]
+		},
+		{
+			"file" : "C:/Users/michal/Desktop/projekt3/build/cvconfig.h"
+		},
+		{
+			"file" : "C:/Users/michal/Desktop/projekt3/build/opencv2/opencv_modules.hpp"
+		},
+		{
+			"file" : "C:/Users/michal/Desktop/projekt3/build/opencv/modules/highgui/vs_version.rc"
+		},
+		{
+			"file" : "C:/Users/michal/Desktop/projekt3/build/opencv/modules/highgui/opencv_highgui_main.cpp"
+		},
+		{
+			"file" : "C:/Users/michal/Desktop/projekt3/build/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/Debug/cmake_pch.hxx"
+		},
+		{
+			"file" : "C:/Users/michal/Desktop/projekt3/build/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/Release/cmake_pch.hxx"
+		},
+		{
+			"file" : "C:/Users/michal/Desktop/projekt3/build/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/MinSizeRel/cmake_pch.hxx"
+		},
+		{
+			"file" : "C:/Users/michal/Desktop/projekt3/build/opencv/modules/highgui/CMakeFiles/opencv_highgui.dir/RelWithDebInfo/cmake_pch.hxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Main",
+			"opencv_highgui",
+			"Module"
+		],
+		"name" : "opencv_highgui"
+	}
+}

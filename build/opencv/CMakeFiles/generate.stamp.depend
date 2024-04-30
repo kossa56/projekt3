@@ -1,0 +1,96 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeFindJavaCommon.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeParseArguments.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeParseImplicitLinkInfo.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakePushCheckState.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CPack.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CPackComponent.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/FindBLAS.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/FindGit.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/FindJNI.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/FindJava.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/FindLAPACK.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/FindOpenMP.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/TestBigEndian.cmake
+C:/Program Files/CMake/share/cmake-3.29/Templates/CPackConfig.cmake.in
+C:/Users/michal/Desktop/projekt3/build/opencv/3rdparty/ffmpeg/ffmpeg_version.cmake
+C:/Users/michal/Desktop/projekt3/opencv/3rdparty/ffmpeg/ffmpeg.cmake
+C:/Users/michal/Desktop/projekt3/opencv/3rdparty/ippicv/ippicv.cmake
+C:/Users/michal/Desktop/projekt3/opencv/CMakeLists.txt
+C:/Users/michal/Desktop/projekt3/opencv/cmake/OpenCVCRTLinkage.cmake
+C:/Users/michal/Desktop/projekt3/opencv/cmake/OpenCVCompilerOptimizations.cmake
+C:/Users/michal/Desktop/projekt3/opencv/cmake/OpenCVCompilerOptions.cmake
+C:/Users/michal/Desktop/projekt3/opencv/cmake/OpenCVDetectApacheAnt.cmake
+C:/Users/michal/Desktop/projekt3/opencv/cmake/OpenCVDetectCXXCompiler.cmake
+C:/Users/michal/Desktop/projekt3/opencv/cmake/OpenCVDetectDirectML.cmake
+C:/Users/michal/Desktop/projekt3/opencv/cmake/OpenCVDetectDirectX.cmake
+C:/Users/michal/Desktop/projekt3/opencv/cmake/OpenCVDetectFlatbuffers.cmake
+C:/Users/michal/Desktop/projekt3/opencv/cmake/OpenCVDetectOpenCL.cmake
+C:/Users/michal/Desktop/projekt3/opencv/cmake/OpenCVDetectPython.cmake
+C:/Users/michal/Desktop/projekt3/opencv/cmake/OpenCVDetectTrace.cmake
+C:/Users/michal/Desktop/projekt3/opencv/cmake/OpenCVDetectVTK.cmake
+C:/Users/michal/Desktop/projekt3/opencv/cmake/OpenCVDownload.cmake
+C:/Users/michal/Desktop/projekt3/opencv/cmake/OpenCVExtraTargets.cmake
+C:/Users/michal/Desktop/projekt3/opencv/cmake/OpenCVFindFrameworks.cmake
+C:/Users/michal/Desktop/projekt3/opencv/cmake/OpenCVFindIPP.cmake
+C:/Users/michal/Desktop/projekt3/opencv/cmake/OpenCVFindIPPIW.cmake
+C:/Users/michal/Desktop/projekt3/opencv/cmake/OpenCVFindLAPACK.cmake
+C:/Users/michal/Desktop/projekt3/opencv/cmake/OpenCVFindLibsGUI.cmake
+C:/Users/michal/Desktop/projekt3/opencv/cmake/OpenCVFindLibsGrfmt.cmake
+C:/Users/michal/Desktop/projekt3/opencv/cmake/OpenCVFindLibsPerf.cmake
+C:/Users/michal/Desktop/projekt3/opencv/cmake/OpenCVFindLibsVideo.cmake
+C:/Users/michal/Desktop/projekt3/opencv/cmake/OpenCVFindMKL.cmake
+C:/Users/michal/Desktop/projekt3/opencv/cmake/OpenCVFindOpenBLAS.cmake
+C:/Users/michal/Desktop/projekt3/opencv/cmake/OpenCVFindOpenEXR.cmake
+C:/Users/michal/Desktop/projekt3/opencv/cmake/OpenCVFindProtobuf.cmake
+C:/Users/michal/Desktop/projekt3/opencv/cmake/OpenCVGenABI.cmake
+C:/Users/michal/Desktop/projekt3/opencv/cmake/OpenCVGenAndroidMK.cmake
+C:/Users/michal/Desktop/projekt3/opencv/cmake/OpenCVGenConfig.cmake
+C:/Users/michal/Desktop/projekt3/opencv/cmake/OpenCVGenHeaders.cmake
+C:/Users/michal/Desktop/projekt3/opencv/cmake/OpenCVGenSetupVars.cmake
+C:/Users/michal/Desktop/projekt3/opencv/cmake/OpenCVInstallLayout.cmake
+C:/Users/michal/Desktop/projekt3/opencv/cmake/OpenCVMinDepVersions.cmake
+C:/Users/michal/Desktop/projekt3/opencv/cmake/OpenCVModule.cmake
+C:/Users/michal/Desktop/projekt3/opencv/cmake/OpenCVPCHSupport.cmake
+C:/Users/michal/Desktop/projekt3/opencv/cmake/OpenCVPackaging.cmake
+C:/Users/michal/Desktop/projekt3/opencv/cmake/OpenCVUtils.cmake
+C:/Users/michal/Desktop/projekt3/opencv/cmake/OpenCVVersion.cmake
+C:/Users/michal/Desktop/projekt3/opencv/cmake/checks/directml.cpp
+C:/Users/michal/Desktop/projekt3/opencv/cmake/checks/directx.cpp
+C:/Users/michal/Desktop/projekt3/opencv/cmake/checks/opencl.cpp
+C:/Users/michal/Desktop/projekt3/opencv/cmake/checks/win32uitest.cpp
+C:/Users/michal/Desktop/projekt3/opencv/cmake/platforms/OpenCV-Windows.cmake
+C:/Users/michal/Desktop/projekt3/opencv/cmake/templates/OpenCVConfig-version.cmake.in
+C:/Users/michal/Desktop/projekt3/opencv/cmake/templates/OpenCVConfig.cmake.in
+C:/Users/michal/Desktop/projekt3/opencv/cmake/templates/OpenCVConfig.root-WIN32.cmake.in
+C:/Users/michal/Desktop/projekt3/opencv/cmake/templates/cmake_uninstall.cmake.in
+C:/Users/michal/Desktop/projekt3/opencv/cmake/templates/custom_hal.hpp.in
+C:/Users/michal/Desktop/projekt3/opencv/cmake/templates/cv_cpu_config.h.in
+C:/Users/michal/Desktop/projekt3/opencv/cmake/templates/cvconfig.h.in
+C:/Users/michal/Desktop/projekt3/opencv/cmake/templates/opencv_modules.hpp.in
+C:/Users/michal/Desktop/projekt3/opencv/cmake/templates/setup_vars_win32.cmd.in
+C:/Users/michal/Desktop/projekt3/opencv/cmake/vars/EnableModeVars.cmake
+C:/Users/michal/Desktop/projekt3/opencv/modules/core/include/opencv2/core/version.hpp
+C:/Users/michal/Desktop/projekt3/opencv/modules/dnn/cmake/init.cmake
+C:/Users/michal/Desktop/projekt3/opencv/modules/gapi/cmake/DownloadADE.cmake
+C:/Users/michal/Desktop/projekt3/opencv/modules/gapi/cmake/init.cmake
+C:/Users/michal/Desktop/projekt3/opencv/modules/highgui/cmake/detect_win32ui.cmake
+C:/Users/michal/Desktop/projekt3/opencv/modules/highgui/cmake/init.cmake
+C:/Users/michal/Desktop/projekt3/opencv/modules/videoio/cmake/detect_dc1394.cmake
+C:/Users/michal/Desktop/projekt3/opencv/modules/videoio/cmake/detect_dshow.cmake
+C:/Users/michal/Desktop/projekt3/opencv/modules/videoio/cmake/detect_ffmpeg.cmake
+C:/Users/michal/Desktop/projekt3/opencv/modules/videoio/cmake/detect_gstreamer.cmake
+C:/Users/michal/Desktop/projekt3/opencv/modules/videoio/cmake/detect_msmf.cmake
+C:/Users/michal/Desktop/projekt3/opencv/modules/videoio/cmake/detect_obsensor.cmake
+C:/Users/michal/Desktop/projekt3/opencv/modules/videoio/cmake/init.cmake

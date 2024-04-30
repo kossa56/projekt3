@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "opencv/modules/.firstpass/calib3d",
+		"source" : "opencv/modules/calib3d"
+	}
+}

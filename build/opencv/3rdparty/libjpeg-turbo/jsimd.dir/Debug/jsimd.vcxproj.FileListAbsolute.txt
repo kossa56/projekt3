@@ -1,0 +1,1 @@
+C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libjpeg-turbo\jsimd.dir\Debug\jsimd.lib

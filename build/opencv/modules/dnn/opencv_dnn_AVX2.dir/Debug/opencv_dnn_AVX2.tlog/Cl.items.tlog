@@ -1,0 +1,6 @@
+C:\Users\michal\Desktop\projekt3\build\opencv\modules\dnn\layers\layers_common.avx2.cpp;C:\Users\michal\Desktop\projekt3\build\opencv\modules\dnn\opencv_dnn_AVX2.dir\Debug\layers\layers_common.avx2.cpp.obj
+C:\Users\michal\Desktop\projekt3\build\opencv\modules\dnn\int8layers\layers_common.avx2.cpp;C:\Users\michal\Desktop\projekt3\build\opencv\modules\dnn\opencv_dnn_AVX2.dir\Debug\int8layers\layers_common.avx2.cpp.obj
+C:\Users\michal\Desktop\projekt3\build\opencv\modules\dnn\layers\cpu_kernels\conv_block.avx2.cpp;C:\Users\michal\Desktop\projekt3\build\opencv\modules\dnn\opencv_dnn_AVX2.dir\Debug\conv_block.avx2.obj
+C:\Users\michal\Desktop\projekt3\build\opencv\modules\dnn\layers\cpu_kernels\conv_depthwise.avx2.cpp;C:\Users\michal\Desktop\projekt3\build\opencv\modules\dnn\opencv_dnn_AVX2.dir\Debug\conv_depthwise.avx2.obj
+C:\Users\michal\Desktop\projekt3\build\opencv\modules\dnn\layers\cpu_kernels\conv_winograd_f63.avx2.cpp;C:\Users\michal\Desktop\projekt3\build\opencv\modules\dnn\opencv_dnn_AVX2.dir\Debug\conv_winograd_f63.avx2.obj
+C:\Users\michal\Desktop\projekt3\build\opencv\modules\dnn\layers\cpu_kernels\fast_gemm_kernels.avx2.cpp;C:\Users\michal\Desktop\projekt3\build\opencv\modules\dnn\opencv_dnn_AVX2.dir\Debug\fast_gemm_kernels.avx2.obj

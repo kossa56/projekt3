@@ -1,0 +1,52 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"opencv/modules/gapi/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "opencv_gapi_AVX2::@15a4d0119d6b2dbe4d6a"
+		},
+		{
+			"id" : "opencv_test_gapi::@15a4d0119d6b2dbe4d6a"
+		},
+		{
+			"id" : "opencv_gapi_SSE4_1::@15a4d0119d6b2dbe4d6a"
+		},
+		{
+			"id" : "opencv_gapi::@15a4d0119d6b2dbe4d6a"
+		},
+		{
+			"id" : "opencv_perf_gapi::@15a4d0119d6b2dbe4d6a"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "CMakeTargets"
+	},
+	"id" : "ALL_BUILD::@15a4d0119d6b2dbe4d6a",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "opencv/modules/gapi",
+		"source" : "opencv/modules/gapi"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

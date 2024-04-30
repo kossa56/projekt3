@@ -1,0 +1,46 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"opencv/modules/stitching/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "opencv_stitching::@f67afe3f4b1481ef3f2e"
+		},
+		{
+			"id" : "opencv_test_stitching::@f67afe3f4b1481ef3f2e"
+		},
+		{
+			"id" : "opencv_perf_stitching::@f67afe3f4b1481ef3f2e"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "CMakeTargets"
+	},
+	"id" : "ALL_BUILD::@f67afe3f4b1481ef3f2e",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "opencv/modules/stitching",
+		"source" : "opencv/modules/stitching"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

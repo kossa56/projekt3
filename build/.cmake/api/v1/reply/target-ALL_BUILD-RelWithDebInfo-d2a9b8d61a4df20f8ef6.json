@@ -1,0 +1,46 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"opencv/modules/videoio/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "opencv_test_videoio::@c5faa4280b2b7a09d203"
+		},
+		{
+			"id" : "opencv_perf_videoio::@c5faa4280b2b7a09d203"
+		},
+		{
+			"id" : "opencv_videoio::@c5faa4280b2b7a09d203"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "CMakeTargets"
+	},
+	"id" : "ALL_BUILD::@c5faa4280b2b7a09d203",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "opencv/modules/videoio",
+		"source" : "opencv/modules/videoio"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\build\opencv\modules\calib3d\CMakeFiles\opencv_calib3d.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\ap3p.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\calibinit.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\calibration.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\calibration_handeye.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\checkchessboard.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\chessboard.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\circlesgrid.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\compat_ptsetreg.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\dls.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\epnp.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\fisheye.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\five-point.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\fundam.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\homography_decomp.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\ippe.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\levmarq.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\main.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\p3p.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\polynom_solver.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\posit.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\ptsetreg.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\quadsubpix.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\rho.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\solvepnp.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\sqpnp.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\stereobm.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\stereosgbm.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\triangulate.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\undistort.dispatch.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\upnp.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\usac\bundle.cpp">
+      <Filter>Src\usac</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\usac\degeneracy.cpp">
+      <Filter>Src\usac</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\usac\dls_solver.cpp">
+      <Filter>Src\usac</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\usac\essential_solver.cpp">
+      <Filter>Src\usac</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\usac\estimator.cpp">
+      <Filter>Src\usac</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\usac\fundamental_solver.cpp">
+      <Filter>Src\usac</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\usac\gamma_values.cpp">
+      <Filter>Src\usac</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\usac\homography_solver.cpp">
+      <Filter>Src\usac</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\usac\local_optimization.cpp">
+      <Filter>Src\usac</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\usac\pnp_solver.cpp">
+      <Filter>Src\usac</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\usac\quality.cpp">
+      <Filter>Src\usac</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\usac\ransac_solvers.cpp">
+      <Filter>Src\usac</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\usac\sampler.cpp">
+      <Filter>Src\usac</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\usac\termination.cpp">
+      <Filter>Src\usac</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\usac\utils.cpp">
+      <Filter>Src\usac</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\build\opencv\modules\calib3d\opencl_kernels_calib3d.cpp">
+      <Filter>Src\opencl\kernels\autogenerated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\build\opencv\modules\calib3d\opencv_calib3d_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\include\opencv2\calib3d.hpp">
+      <Filter>Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\include\opencv2\calib3d\calib3d.hpp">
+      <Filter>Include\opencv2\calib3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\include\opencv2\calib3d\calib3d_c.h">
+      <Filter>Include\opencv2\calib3d</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\build\opencv\modules\calib3d\opencl_kernels_calib3d.hpp">
+      <Filter>Src\opencl\kernels\autogenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\ap3p.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\calib3d_c_api.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\chessboard.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\circlesgrid.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\distortion_model.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\dls.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\epnp.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\fisheye.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\ippe.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\p3p.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\polynom_solver.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\rho.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\sqpnp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\undistort.simd.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\upnp.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\usac.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\build\cvconfig.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\build\opencv2\opencv_modules.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\build\opencv\modules\calib3d\CMakeFiles\opencv_calib3d.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\build\opencv\modules\calib3d\CMakeFiles\opencv_calib3d.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\build\opencv\modules\calib3d\CMakeFiles\opencv_calib3d.dir\MinSizeRel\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\build\opencv\modules\calib3d\CMakeFiles\opencv_calib3d.dir\RelWithDebInfo\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\michal\Desktop\projekt3\build\CMakeFiles\d4baef8de2681d2e212b432ff35c7a59\opencl_kernels_calib3d.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\michal\Desktop\projekt3\opencv\modules\calib3d\src\opencl\stereobm.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Users\michal\Desktop\projekt3\build\opencv\modules\calib3d\opencv_calib3d_AVX2.dir\$(Configuration)\undistort.avx2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\michal\Desktop\projekt3\build\opencv\modules\calib3d\vs_version.rc">
+      <Filter>Src</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{04DF58C5-F4FA-3297-9F34-B6D87F69C40B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{34DE6A4A-0E6B-352A-965C-75CB2866D76A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2">
+      <UniqueIdentifier>{6961EFB4-DC6E-34C1-89CF-B72D7F6FCD5F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2\calib3d">
+      <UniqueIdentifier>{6027C6F7-A499-3E7B-8F6F-EC2821AC481F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{6420481A-4828-394C-9D07-B885B5B1E109}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{F52DD6B4-867E-3479-B4AC-BA591D70ED88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{48ED3A26-D496-3A97-8332-E5965EF701BB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{A02A777F-D498-394C-9DB0-0220D6179076}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\opencl">
+      <UniqueIdentifier>{AA882A61-51C5-3F09-9FEA-3D1418A8A4C3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\opencl\kernels">
+      <UniqueIdentifier>{6AF8A01F-9F10-3B21-BF6C-CA1D0C22F7D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\opencl\kernels\autogenerated">
+      <UniqueIdentifier>{CDFE8BDD-7609-3752-B32A-79D8A82BC040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\usac">
+      <UniqueIdentifier>{A325DFEE-06FD-33F4-A9CF-72593F3EF084}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

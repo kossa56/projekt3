@@ -1,0 +1,776 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/Release/opencv_perf_videoio.exe"
+		},
+		{
+			"path" : "bin/Release/opencv_perf_videoio.pdb"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"ocv_add_executable",
+			"ocv_add_perf_tests",
+			"target_link_libraries",
+			"__ocv_push_target_link_libraries",
+			"ocv_target_link_libraries",
+			"add_dependencies",
+			"add_definitions",
+			"ocv_add_module",
+			"include",
+			"_ocv_create_module",
+			"ocv_create_module",
+			"include_directories",
+			"ocv_include_directories",
+			"target_include_directories",
+			"ocv_target_include_directories",
+			"ocv_target_include_modules",
+			"target_precompile_headers",
+			"ocv_add_precompiled_header_to_target",
+			"_ocv_add_precompiled_headers"
+		],
+		"files" : 
+		[
+			"opencv/cmake/OpenCVUtils.cmake",
+			"opencv/cmake/OpenCVModule.cmake",
+			"opencv/modules/videoio/CMakeLists.txt",
+			"opencv/cmake/OpenCVCompilerOptions.cmake",
+			"opencv/CMakeLists.txt",
+			"opencv/cmake/OpenCVFindLibsPerf.cmake",
+			"opencv/cmake/OpenCVPCHSupport.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 278,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1232,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1568,
+				"parent" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 1234,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 1507,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 1491,
+				"parent" : 5
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 1241,
+				"parent" : 1
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 1238,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 1521,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 1491,
+				"parent" : 9
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 217,
+				"parent" : 11
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 671,
+				"parent" : 13
+			},
+			{
+				"file" : 3,
+				"parent" : 14
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 472,
+				"parent" : 15
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 484,
+				"parent" : 15
+			},
+			{
+				"command" : 11,
+				"file" : 2,
+				"line" : 276,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 905,
+				"parent" : 18
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 933,
+				"parent" : 19
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 820,
+				"parent" : 13
+			},
+			{
+				"file" : 5,
+				"parent" : 21
+			},
+			{
+				"command" : 13,
+				"file" : 5,
+				"line" : 19,
+				"parent" : 22
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 315,
+				"parent" : 23
+			},
+			{
+				"command" : 13,
+				"file" : 5,
+				"line" : 16,
+				"parent" : 22
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 315,
+				"parent" : 25
+			},
+			{
+				"command" : 16,
+				"file" : 1,
+				"line" : 1233,
+				"parent" : 1
+			},
+			{
+				"command" : 15,
+				"file" : 1,
+				"line" : 728,
+				"parent" : 27
+			},
+			{
+				"command" : 14,
+				"file" : 0,
+				"line" : 378,
+				"parent" : 28
+			},
+			{
+				"command" : 15,
+				"file" : 1,
+				"line" : 728,
+				"parent" : 27
+			},
+			{
+				"command" : 14,
+				"file" : 0,
+				"line" : 378,
+				"parent" : 30
+			},
+			{
+				"command" : 15,
+				"file" : 1,
+				"line" : 728,
+				"parent" : 27
+			},
+			{
+				"command" : 14,
+				"file" : 0,
+				"line" : 378,
+				"parent" : 32
+			},
+			{
+				"command" : 15,
+				"file" : 1,
+				"line" : 728,
+				"parent" : 27
+			},
+			{
+				"command" : 14,
+				"file" : 0,
+				"line" : 378,
+				"parent" : 34
+			},
+			{
+				"command" : 15,
+				"file" : 1,
+				"line" : 728,
+				"parent" : 27
+			},
+			{
+				"command" : 14,
+				"file" : 0,
+				"line" : 378,
+				"parent" : 36
+			},
+			{
+				"command" : 15,
+				"file" : 1,
+				"line" : 728,
+				"parent" : 27
+			},
+			{
+				"command" : 14,
+				"file" : 0,
+				"line" : 378,
+				"parent" : 38
+			},
+			{
+				"command" : 13,
+				"file" : 4,
+				"line" : 640,
+				"parent" : 13
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 312,
+				"parent" : 40
+			},
+			{
+				"command" : 19,
+				"file" : 1,
+				"line" : 1271,
+				"parent" : 1
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 1109,
+				"parent" : 42
+			},
+			{
+				"command" : 17,
+				"file" : 6,
+				"line" : 411,
+				"parent" : 43
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " /DWIN32 /D_WINDOWS /W4 /GR  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise     /EHa /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589 /wd4819 /MP  /MD /O2 /Ob2 /DNDEBUG "
+				},
+				{
+					"fragment" : "/YcC:/Users/michal/Desktop/projekt3/build/opencv/modules/videoio/CMakeFiles/opencv_perf_videoio.dir/Release/cmake_pch.hxx /FpC:/Users/michal/Desktop/projekt3/build/opencv/modules/videoio/opencv_perf_videoio.dir/Release/cmake_pch.pch /FIC:/Users/michal/Desktop/projekt3/build/opencv/modules/videoio/CMakeFiles/opencv_perf_videoio.dir/Release/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 10,
+					"define" : "HAVE_DSHOW"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "HAVE_FFMPEG_WRAPPER"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "HAVE_MSMF"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "HAVE_MSMF_DXVA"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "HAVE_OBSENSOR"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "HAVE_OBSENSOR_MSMF"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "_VARIADIC_MAX=10"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "_WIN32_WINNT=0x0601"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "__OPENCV_BUILD=1"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 24,
+					"path" : "C:/Users/michal/Desktop/projekt3/build/opencv/3rdparty/ippicv/ippicv_win/icv/include"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "C:/Users/michal/Desktop/projekt3/build/opencv/3rdparty/ippicv/ippicv_win/iw/include"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "C:/Users/michal/Desktop/projekt3/opencv/modules/ts/include"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "C:/Users/michal/Desktop/projekt3/opencv/modules/videoio/include"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/michal/Desktop/projekt3/opencv/modules/imgcodecs/include"
+				},
+				{
+					"backtrace" : 35,
+					"path" : "C:/Users/michal/Desktop/projekt3/opencv/modules/core/include"
+				},
+				{
+					"backtrace" : 37,
+					"path" : "C:/Users/michal/Desktop/projekt3/opencv/modules/imgproc/include"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "C:/Users/michal/Desktop/projekt3/opencv/modules/highgui/include"
+				},
+				{
+					"backtrace" : 41,
+					"isSystem" : true,
+					"path" : "C:/Users/michal/Desktop/projekt3/build"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "11"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 44,
+					"header" : "C:/Users/michal/Desktop/projekt3/opencv/modules/videoio/perf/perf_precomp.hpp"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " /DWIN32 /D_WINDOWS /W4 /GR  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise     /EHa /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589 /wd4819 /MP  /MD /O2 /Ob2 /DNDEBUG "
+				},
+				{
+					"fragment" : "/YuC:/Users/michal/Desktop/projekt3/build/opencv/modules/videoio/CMakeFiles/opencv_perf_videoio.dir/Release/cmake_pch.hxx /FpC:/Users/michal/Desktop/projekt3/build/opencv/modules/videoio/opencv_perf_videoio.dir/Release/cmake_pch.pch /FIC:/Users/michal/Desktop/projekt3/build/opencv/modules/videoio/CMakeFiles/opencv_perf_videoio.dir/Release/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 10,
+					"define" : "HAVE_DSHOW"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "HAVE_FFMPEG_WRAPPER"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "HAVE_MSMF"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "HAVE_MSMF_DXVA"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "HAVE_OBSENSOR"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "HAVE_OBSENSOR_MSMF"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "_VARIADIC_MAX=10"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "_WIN32_WINNT=0x0601"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "__OPENCV_BUILD=1"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 24,
+					"path" : "C:/Users/michal/Desktop/projekt3/build/opencv/3rdparty/ippicv/ippicv_win/icv/include"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "C:/Users/michal/Desktop/projekt3/build/opencv/3rdparty/ippicv/ippicv_win/iw/include"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "C:/Users/michal/Desktop/projekt3/opencv/modules/ts/include"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "C:/Users/michal/Desktop/projekt3/opencv/modules/videoio/include"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/michal/Desktop/projekt3/opencv/modules/imgcodecs/include"
+				},
+				{
+					"backtrace" : 35,
+					"path" : "C:/Users/michal/Desktop/projekt3/opencv/modules/core/include"
+				},
+				{
+					"backtrace" : 37,
+					"path" : "C:/Users/michal/Desktop/projekt3/opencv/modules/imgproc/include"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "C:/Users/michal/Desktop/projekt3/opencv/modules/highgui/include"
+				},
+				{
+					"backtrace" : 41,
+					"isSystem" : true,
+					"path" : "C:/Users/michal/Desktop/projekt3/build"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "11"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 44,
+					"header" : "C:/Users/michal/Desktop/projekt3/opencv/modules/videoio/perf/perf_precomp.hpp"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "ippiw::@4eba6719770e965daadc"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "opencv_imgproc::@fed5f73d5ce96833c910"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "opencv_highgui_plugins::@6c6ca097bd0c4b839919"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "opencv_videoio_plugins::@4c0df8ee421b6c43481f"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "opencv_core::@dbec0c1fcd92e41cafe4"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "opencv_imgcodecs::@c0ae2f00d71b37ddf62d"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "opencv_videoio::@c5faa4280b2b7a09d203"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "opencv_highgui::@248529d3dfb903c2c9d7"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "opencv_ts::@113a70d24f35160ad842"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "tests performance"
+	},
+	"id" : "opencv_perf_videoio::@c5faa4280b2b7a09d203",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /W4 /GR  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise     /EHa /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589 /wd4819 /MP  /MD /O2 /Ob2 /DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64  /INCREMENTAL:NO  /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "..\\..\\lib\\Release\\opencv_ts490.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "..\\..\\lib\\Release\\opencv_highgui490.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "..\\..\\3rdparty\\lib\\Release\\ippiw.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "..\\..\\3rdparty\\ippicv\\ippicv_win\\icv\\lib\\intel64\\ippicvmt.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "..\\..\\lib\\Release\\opencv_videoio490.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "..\\..\\lib\\Release\\opencv_imgcodecs490.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "..\\..\\lib\\Release\\opencv_imgproc490.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "..\\..\\lib\\Release\\opencv_core490.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "opencv_perf_videoio",
+	"nameOnDisk" : "opencv_perf_videoio.exe",
+	"paths" : 
+	{
+		"build" : "opencv/modules/videoio",
+		"source" : "opencv/modules/videoio"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Src",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3
+			]
+		},
+		{
+			"name" : "Include",
+			"sourceIndexes" : 
+			[
+				4,
+				5
+			]
+		},
+		{
+			"name" : "Precompile Header File",
+			"sourceIndexes" : 
+			[
+				6,
+				7,
+				8,
+				9
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"path" : "build/opencv/modules/videoio/CMakeFiles/opencv_perf_videoio.dir/cmake_pch.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/videoio/perf/perf_input.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/videoio/perf/perf_main.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/videoio/perf/perf_output.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "opencv/modules/videoio/perf/perf_camera.impl.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"path" : "opencv/modules/videoio/perf/perf_precomp.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"path" : "build/opencv/modules/videoio/CMakeFiles/opencv_perf_videoio.dir/Debug/cmake_pch.hxx",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "build/opencv/modules/videoio/CMakeFiles/opencv_perf_videoio.dir/Release/cmake_pch.hxx",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "build/opencv/modules/videoio/CMakeFiles/opencv_perf_videoio.dir/MinSizeRel/cmake_pch.hxx",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"path" : "build/opencv/modules/videoio/CMakeFiles/opencv_perf_videoio.dir/RelWithDebInfo/cmake_pch.hxx",
+			"sourceGroupIndex" : 3
+		}
+	],
+	"type" : "EXECUTABLE"
+}

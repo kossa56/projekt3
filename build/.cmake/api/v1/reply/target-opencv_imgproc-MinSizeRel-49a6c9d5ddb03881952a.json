@@ -1,0 +1,1997 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/MinSizeRel/opencv_imgproc490.dll"
+		},
+		{
+			"path" : "opencv/lib/MinSizeRel/opencv_imgproc490.lib"
+		},
+		{
+			"path" : "bin/MinSizeRel/opencv_imgproc490.pdb"
+		}
+	],
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"ocv_add_library",
+			"_ocv_create_module",
+			"ocv_create_module",
+			"ocv_define_module",
+			"install",
+			"ocv_install_target",
+			"target_link_libraries",
+			"__ocv_push_target_link_libraries",
+			"ocv_target_link_libraries",
+			"add_definitions",
+			"ocv_add_module",
+			"include",
+			"include_directories",
+			"ocv_include_directories",
+			"target_include_directories",
+			"_ocv_append_target_includes",
+			"target_precompile_headers",
+			"ocv_add_precompiled_header_to_target",
+			"_ocv_add_precompiled_headers"
+		],
+		"files" : 
+		[
+			"opencv/cmake/OpenCVUtils.cmake",
+			"opencv/cmake/OpenCVModule.cmake",
+			"opencv/modules/imgproc/CMakeLists.txt",
+			"opencv/cmake/OpenCVCompilerOptions.cmake",
+			"opencv/CMakeLists.txt",
+			"opencv/cmake/OpenCVFindLibsPerf.cmake",
+			"opencv/cmake/OpenCVPCHSupport.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1131,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 905,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 989,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1582,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 1064,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 1237,
+				"parent" : 6
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 999,
+				"parent" : 3
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 1507,
+				"parent" : 8
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 1491,
+				"parent" : 9
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 1005,
+				"parent" : 3
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 1521,
+				"parent" : 11
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 1491,
+				"parent" : 12
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 1128,
+				"parent" : 1
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 217,
+				"parent" : 14
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 12,
+				"file" : 4,
+				"line" : 671,
+				"parent" : 16
+			},
+			{
+				"file" : 3,
+				"parent" : 17
+			},
+			{
+				"command" : 10,
+				"file" : 3,
+				"line" : 472,
+				"parent" : 18
+			},
+			{
+				"command" : 10,
+				"file" : 3,
+				"line" : 484,
+				"parent" : 18
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 933,
+				"parent" : 3
+			},
+			{
+				"command" : 12,
+				"file" : 4,
+				"line" : 820,
+				"parent" : 16
+			},
+			{
+				"file" : 5,
+				"parent" : 22
+			},
+			{
+				"command" : 14,
+				"file" : 5,
+				"line" : 19,
+				"parent" : 23
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 315,
+				"parent" : 24
+			},
+			{
+				"command" : 14,
+				"file" : 5,
+				"line" : 16,
+				"parent" : 23
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 315,
+				"parent" : 26
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 1617,
+				"parent" : 4
+			},
+			{
+				"command" : 15,
+				"file" : 0,
+				"line" : 1540,
+				"parent" : 28
+			},
+			{
+				"command" : 14,
+				"file" : 4,
+				"line" : 640,
+				"parent" : 16
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 312,
+				"parent" : 30
+			},
+			{
+				"command" : 19,
+				"file" : 1,
+				"line" : 1089,
+				"parent" : 3
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 1109,
+				"parent" : 32
+			},
+			{
+				"command" : 17,
+				"file" : 6,
+				"line" : 411,
+				"parent" : 33
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " /DWIN32 /D_WINDOWS /W4 /GR  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise     /EHa /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589 /wd4819 /MP /MD /O1 /Ob1 /DNDEBUG"
+				},
+				{
+					"fragment" : "/YcC:/Users/michal/Desktop/projekt3/build/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/MinSizeRel/cmake_pch.hxx /FpC:/Users/michal/Desktop/projekt3/build/opencv/modules/imgproc/opencv_imgproc.dir/MinSizeRel/cmake_pch.pch /FIC:/Users/michal/Desktop/projekt3/build/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/MinSizeRel/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "CVAPI_EXPORTS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "_VARIADIC_MAX=10"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "_WIN32_WINNT=0x0601"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "__OPENCV_BUILD=1"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/michal/Desktop/projekt3/build/opencv/3rdparty/ippicv/ippicv_win/icv/include"
+				},
+				{
+					"backtrace" : 27,
+					"path" : "C:/Users/michal/Desktop/projekt3/build/opencv/3rdparty/ippicv/ippicv_win/iw/include"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "C:/Users/michal/Desktop/projekt3/opencv/modules/imgproc/src"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "C:/Users/michal/Desktop/projekt3/opencv/modules/imgproc/include"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgproc"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "C:/Users/michal/Desktop/projekt3/opencv/modules/core/include"
+				},
+				{
+					"backtrace" : 31,
+					"isSystem" : true,
+					"path" : "C:/Users/michal/Desktop/projekt3/build"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					5
+				],
+				"standard" : "11"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 34,
+					"header" : "C:/Users/michal/Desktop/projekt3/opencv/modules/imgproc/src/precomp.hpp"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " /DWIN32 /D_WINDOWS /W4 /GR  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise     /EHa /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589 /wd4819 /MP /MD /O1 /Ob1 /DNDEBUG"
+				},
+				{
+					"fragment" : "/YuC:/Users/michal/Desktop/projekt3/build/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/MinSizeRel/cmake_pch.hxx /FpC:/Users/michal/Desktop/projekt3/build/opencv/modules/imgproc/opencv_imgproc.dir/MinSizeRel/cmake_pch.pch /FIC:/Users/michal/Desktop/projekt3/build/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/MinSizeRel/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "CVAPI_EXPORTS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "_VARIADIC_MAX=10"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "_WIN32_WINNT=0x0601"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "__OPENCV_BUILD=1"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/michal/Desktop/projekt3/build/opencv/3rdparty/ippicv/ippicv_win/icv/include"
+				},
+				{
+					"backtrace" : 27,
+					"path" : "C:/Users/michal/Desktop/projekt3/build/opencv/3rdparty/ippicv/ippicv_win/iw/include"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "C:/Users/michal/Desktop/projekt3/opencv/modules/imgproc/src"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "C:/Users/michal/Desktop/projekt3/opencv/modules/imgproc/include"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgproc"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "C:/Users/michal/Desktop/projekt3/opencv/modules/core/include"
+				},
+				{
+					"backtrace" : 31,
+					"isSystem" : true,
+					"path" : "C:/Users/michal/Desktop/projekt3/build"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					5
+				],
+				"standard" : "11"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 34,
+					"header" : "C:/Users/michal/Desktop/projekt3/opencv/modules/imgproc/src/precomp.hpp"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				122,
+				182
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DWIN32"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "CVAPI_EXPORTS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "_VARIADIC_MAX=10"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "_WIN32_WINNT=0x0601"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "__OPENCV_BUILD=1"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 25,
+					"path" : "C:/Users/michal/Desktop/projekt3/build/opencv/3rdparty/ippicv/ippicv_win/icv/include"
+				},
+				{
+					"backtrace" : 27,
+					"path" : "C:/Users/michal/Desktop/projekt3/build/opencv/3rdparty/ippicv/ippicv_win/iw/include"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "C:/Users/michal/Desktop/projekt3/opencv/modules/imgproc/src"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "C:/Users/michal/Desktop/projekt3/opencv/modules/imgproc/include"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgproc"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "C:/Users/michal/Desktop/projekt3/opencv/modules/core/include"
+				},
+				{
+					"backtrace" : 31,
+					"isSystem" : true,
+					"path" : "C:/Users/michal/Desktop/projekt3/build"
+				}
+			],
+			"language" : "RC",
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 34,
+					"header" : "C:/Users/michal/Desktop/projekt3/opencv/modules/imgproc/src/precomp.hpp"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				181
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 13,
+			"id" : "ippiw::@4eba6719770e965daadc"
+		},
+		{
+			"id" : "opencv_imgproc_SSE4_1::@fed5f73d5ce96833c910"
+		},
+		{
+			"id" : "opencv_imgproc_AVX::@fed5f73d5ce96833c910"
+		},
+		{
+			"id" : "opencv_imgproc_AVX2::@fed5f73d5ce96833c910"
+		},
+		{
+			"id" : "opencv_imgproc_AVX512_SKX::@fed5f73d5ce96833c910"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "opencv_core::@dbec0c1fcd92e41cafe4"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "modules"
+	},
+	"id" : "opencv_imgproc::@fed5f73d5ce96833c910",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 7,
+				"path" : "x64/vc17/lib"
+			},
+			{
+				"backtrace" : 7,
+				"path" : "x64/vc17/bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Program Files (x86)/projekt3"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64  /INCREMENTAL:NO /NODEFAULTLIB:libc /DEBUG",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "..\\..\\lib\\MinSizeRel\\opencv_core490.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "..\\..\\3rdparty\\lib\\MinSizeRel\\ippiw.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "..\\..\\3rdparty\\ippicv\\ippicv_win\\icv\\lib\\intel64\\ippicvmt.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "opencv_imgproc",
+	"nameOnDisk" : "opencv_imgproc490.dll",
+	"paths" : 
+	{
+		"build" : "opencv/modules/imgproc",
+		"source" : "opencv/modules/imgproc"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				182
+			]
+		},
+		{
+			"name" : "Include\\opencv2",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		},
+		{
+			"name" : "Include\\opencv2\\imgproc",
+			"sourceIndexes" : 
+			[
+				2,
+				7,
+				8,
+				9
+			]
+		},
+		{
+			"name" : "Include\\opencv2\\imgproc\\detail",
+			"sourceIndexes" : 
+			[
+				3,
+				4
+			]
+		},
+		{
+			"name" : "Include\\opencv2\\imgproc\\hal",
+			"sourceIndexes" : 
+			[
+				5,
+				6
+			]
+		},
+		{
+			"name" : "Src",
+			"sourceIndexes" : 
+			[
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				181
+			]
+		},
+		{
+			"name" : "Src\\opencl\\kernels",
+			"sourceIndexes" : 
+			[
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121
+			]
+		},
+		{
+			"name" : "Src\\opencl\\kernels\\autogenerated",
+			"sourceIndexes" : 
+			[
+				122,
+				123
+			]
+		},
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178
+			]
+		},
+		{
+			"name" : "Include",
+			"sourceIndexes" : 
+			[
+				179,
+				180
+			]
+		},
+		{
+			"name" : "Precompile Header File",
+			"sourceIndexes" : 
+			[
+				183,
+				184,
+				185,
+				186
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				187
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"path" : "build/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/cmake_pch.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/include/opencv2/imgproc.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/include/opencv2/imgproc/bindings.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/include/opencv2/imgproc/detail/gcgraph.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/include/opencv2/imgproc/detail/legacy.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/include/opencv2/imgproc/hal/hal.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/include/opencv2/imgproc/hal/interface.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/include/opencv2/imgproc/imgproc_c.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/include/opencv2/imgproc/segmentation.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/include/opencv2/imgproc/types_c.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/accum.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/accum.dispatch.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/approx.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/bilateral_filter.dispatch.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/blend.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/box_filter.dispatch.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/canny.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/clahe.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/color.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/color_hsv.dispatch.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/color_lab.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/color_rgb.dispatch.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/color_yuv.dispatch.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/colormap.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/connectedcomponents.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/contours.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/contours_approx.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/contours_common.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/contours_link.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/contours_new.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/convhull.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/corner.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/cornersubpix.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/demosaicing.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/deriv.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/distransform.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/drawing.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/emd.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/emd_new.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/featureselect.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/filter.dispatch.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/floodfill.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/gabor.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/generalized_hough.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/geometry.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/grabcut.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/hershey_fonts.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/histogram.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/hough.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/imgwarp.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/intelligent_scissors.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/intersection.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/linefit.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/lsd.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/main.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/matchcontours.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/median_blur.dispatch.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/min_enclosing_triangle.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/moments.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/morph.dispatch.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/phasecorr.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/pyramids.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/resize.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/rotcalipers.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/samplers.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/segmentation.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/shapedescr.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/smooth.dispatch.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/spatialgradient.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/stackblur.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/subdivision2d.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/sumpixels.dispatch.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/tables.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/templmatch.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/thresh.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "opencv/modules/imgproc/src/utils.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/opencl/accumulate.cl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/opencl/bilateral.cl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/opencl/blend_linear.cl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/opencl/boxFilter.cl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/opencl/boxFilter3x3.cl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/opencl/calc_back_project.cl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/opencl/canny.cl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/opencl/clahe.cl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/opencl/color_hsv.cl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/opencl/color_lab.cl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/opencl/color_rgb.cl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/opencl/color_yuv.cl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/opencl/corner.cl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/opencl/covardata.cl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/opencl/filter2D.cl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/opencl/filter2DSmall.cl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/opencl/filterSepCol.cl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/opencl/filterSepRow.cl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/opencl/filterSep_singlePass.cl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/opencl/filterSmall.cl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/opencl/gaussianBlur3x3.cl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/opencl/gaussianBlur5x5.cl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/opencl/gftt.cl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/opencl/histogram.cl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/opencl/hough_lines.cl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/opencl/integral_sum.cl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/opencl/laplacian3.cl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/opencl/laplacian5.cl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/opencl/linearPolar.cl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/opencl/logPolar.cl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/opencl/match_template.cl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/opencl/medianFilter.cl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/opencl/moments.cl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/opencl/morph.cl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/opencl/morph3x3.cl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/opencl/precornerdetect.cl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/opencl/pyr_down.cl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/opencl/pyr_up.cl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/opencl/pyramid_up.cl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/opencl/remap.cl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/opencl/resize.cl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/opencl/sepFilter3x3.cl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/opencl/threshold.cl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/opencl/warp_affine.cl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/opencl/warp_perspective.cl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/opencl/warp_transform.cl",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "build/opencv/modules/imgproc/opencl_kernels_imgproc.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/opencv/modules/imgproc/opencl_kernels_imgproc.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/_geom.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/accum.simd.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/bilateral_filter.simd.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/box_filter.simd.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/ccl_bolelli_forest.inc.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/ccl_bolelli_forest_firstline.inc.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/ccl_bolelli_forest_lastline.inc.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/ccl_bolelli_forest_singleline.inc.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/color.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/color.simd_helpers.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/color_hsv.simd.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/color_rgb.simd.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/color_yuv.simd.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/contours_common.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/corner.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/filter.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/filter.simd.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/filterengine.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/fixedpoint.inl.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/hal_replacement.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/imgwarp.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/median_blur.simd.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/morph.simd.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/precomp.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/resize.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/smooth.simd.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/sumpixels.avx512_skx.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"path" : "opencv/modules/imgproc/src/sumpixels.simd.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/opencv/modules/imgproc/opencv_imgproc_SSE4_1.dir/$(Configuration)/imgwarp.sse4_1.obj",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/opencv/modules/imgproc/opencv_imgproc_SSE4_1.dir/$(Configuration)/resize.sse4_1.obj",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/opencv/modules/imgproc/opencv_imgproc_SSE4_1.dir/$(Configuration)/accum.sse4_1.obj",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/opencv/modules/imgproc/opencv_imgproc_SSE4_1.dir/$(Configuration)/box_filter.sse4_1.obj",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/opencv/modules/imgproc/opencv_imgproc_SSE4_1.dir/$(Configuration)/filter.sse4_1.obj",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/opencv/modules/imgproc/opencv_imgproc_SSE4_1.dir/$(Configuration)/color_hsv.sse4_1.obj",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/opencv/modules/imgproc/opencv_imgproc_SSE4_1.dir/$(Configuration)/color_rgb.sse4_1.obj",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/opencv/modules/imgproc/opencv_imgproc_SSE4_1.dir/$(Configuration)/color_yuv.sse4_1.obj",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/opencv/modules/imgproc/opencv_imgproc_SSE4_1.dir/$(Configuration)/median_blur.sse4_1.obj",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/opencv/modules/imgproc/opencv_imgproc_SSE4_1.dir/$(Configuration)/morph.sse4_1.obj",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/opencv/modules/imgproc/opencv_imgproc_SSE4_1.dir/$(Configuration)/smooth.sse4_1.obj",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/opencv/modules/imgproc/opencv_imgproc_AVX.dir/$(Configuration)/corner.avx.obj",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/opencv/modules/imgproc/opencv_imgproc_AVX.dir/$(Configuration)/accum.avx.obj",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/opencv/modules/imgproc/opencv_imgproc_AVX2.dir/$(Configuration)/imgwarp.avx2.obj",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/opencv/modules/imgproc/opencv_imgproc_AVX2.dir/$(Configuration)/resize.avx2.obj",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/opencv/modules/imgproc/opencv_imgproc_AVX2.dir/$(Configuration)/accum.avx2.obj",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/opencv/modules/imgproc/opencv_imgproc_AVX2.dir/$(Configuration)/bilateral_filter.avx2.obj",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/opencv/modules/imgproc/opencv_imgproc_AVX2.dir/$(Configuration)/box_filter.avx2.obj",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/opencv/modules/imgproc/opencv_imgproc_AVX2.dir/$(Configuration)/filter.avx2.obj",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/opencv/modules/imgproc/opencv_imgproc_AVX2.dir/$(Configuration)/color_hsv.avx2.obj",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/opencv/modules/imgproc/opencv_imgproc_AVX2.dir/$(Configuration)/color_rgb.avx2.obj",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/opencv/modules/imgproc/opencv_imgproc_AVX2.dir/$(Configuration)/color_yuv.avx2.obj",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/opencv/modules/imgproc/opencv_imgproc_AVX2.dir/$(Configuration)/median_blur.avx2.obj",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/opencv/modules/imgproc/opencv_imgproc_AVX2.dir/$(Configuration)/morph.avx2.obj",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/opencv/modules/imgproc/opencv_imgproc_AVX2.dir/$(Configuration)/smooth.avx2.obj",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/opencv/modules/imgproc/opencv_imgproc_AVX2.dir/$(Configuration)/sumpixels.avx2.obj",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/opencv/modules/imgproc/opencv_imgproc_AVX512_SKX.dir/$(Configuration)/sumpixels.avx512_skx.obj",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 5,
+			"path" : "build/cvconfig.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 5,
+			"path" : "build/opencv2/opencv_modules.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 2,
+			"path" : "build/opencv/modules/imgproc/vs_version.rc",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "build/opencv/modules/imgproc/opencv_imgproc_main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"path" : "build/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/Debug/cmake_pch.hxx",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 0,
+			"path" : "build/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/Release/cmake_pch.hxx",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 0,
+			"path" : "build/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/MinSizeRel/cmake_pch.hxx",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 0,
+			"path" : "build/opencv/modules/imgproc/CMakeFiles/opencv_imgproc.dir/RelWithDebInfo/cmake_pch.hxx",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/b1b364e18c0dd50daf816c3598e0e87c/opencl_kernels_imgproc.cpp.rule",
+			"sourceGroupIndex" : 11
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

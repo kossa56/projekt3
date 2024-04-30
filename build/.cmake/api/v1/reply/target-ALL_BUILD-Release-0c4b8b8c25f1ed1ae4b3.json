@@ -1,0 +1,55 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"opencv/modules/dnn/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "opencv_dnn_AVX512_SKX::@fd597e81ab51c72c6bde"
+		},
+		{
+			"id" : "opencv_perf_dnn::@fd597e81ab51c72c6bde"
+		},
+		{
+			"id" : "opencv_dnn_AVX::@fd597e81ab51c72c6bde"
+		},
+		{
+			"id" : "opencv_dnn_AVX2::@fd597e81ab51c72c6bde"
+		},
+		{
+			"id" : "opencv_dnn::@fd597e81ab51c72c6bde"
+		},
+		{
+			"id" : "opencv_test_dnn::@fd597e81ab51c72c6bde"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "CMakeTargets"
+	},
+	"id" : "ALL_BUILD::@fd597e81ab51c72c6bde",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "opencv/modules/dnn",
+		"source" : "opencv/modules/dnn"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

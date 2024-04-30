@@ -1,0 +1,617 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{186F8EE9-F317-3840-AA63-CAD2C44ED566}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>opencv_imgcodecs</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\michal\Desktop\projekt3\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opencv_imgcodecs.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opencv_imgcodecs490d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\michal\Desktop\projekt3\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">opencv_imgcodecs.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">opencv_imgcodecs490</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\michal\Desktop\projekt3\build\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">opencv_imgcodecs.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">opencv_imgcodecs490</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\michal\Desktop\projekt3\build\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">opencv_imgcodecs.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">opencv_imgcodecs490</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\zlib;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\zlib;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openjpeg\openjp2;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\openjpeg\openjp2;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libpng;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libwebp\src;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libjpeg-turbo;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libjpeg-turbo\src;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\ippicv\ippicv_win\icv\include;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\ippicv\ippicv_win\iw\include;C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src;C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\include;C:\Users\michal\Desktop\projekt3\build\opencv\modules\imgcodecs;C:\Users\michal\Desktop\projekt3\opencv\modules\core\include;C:\Users\michal\Desktop\projekt3\opencv\modules\imgproc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/michal/Desktop/projekt3/build" /external:I "C:/Users/michal/Desktop/projekt3/opencv/3rdparty/openexr/Half" /external:I "C:/Users/michal/Desktop/projekt3/opencv/3rdparty/openexr/Iex" /external:I "C:/Users/michal/Desktop/projekt3/opencv/3rdparty/openexr/IlmThread" /external:I "C:/Users/michal/Desktop/projekt3/opencv/3rdparty/openexr/Imath" /external:I "C:/Users/michal/Desktop/projekt3/opencv/3rdparty/openexr/IlmImf" /external:I "C:/Users/michal/Desktop/projekt3/build/opencv/3rdparty/openexr" /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589;4819</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/opencv_imgcodecs.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;HAVE_WEBP;HAVE_IMGCODEC_HDR;HAVE_IMGCODEC_SUNRASTER;HAVE_IMGCODEC_PXM;HAVE_IMGCODEC_PFM;__OPENCV_BUILD=1;OPJ_STATIC;CMAKE_INTDIR="Debug";CVAPI_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:\Users\michal\Desktop\projekt3\build\opencv\lib\Debug\opencv_imgcodecs490d.pdb</ProgramDataBaseFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;HAVE_WEBP;HAVE_IMGCODEC_HDR;HAVE_IMGCODEC_SUNRASTER;HAVE_IMGCODEC_PXM;HAVE_IMGCODEC_PFM;__OPENCV_BUILD=1;OPJ_STATIC;CMAKE_INTDIR=\"Debug\";CVAPI_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\zlib;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\zlib;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openjpeg\openjp2;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\openjpeg\openjp2;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libpng;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libwebp\src;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libjpeg-turbo;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libjpeg-turbo\src;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\ippicv\ippicv_win\icv\include;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\ippicv\ippicv_win\iw\include;C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src;C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\include;C:\Users\michal\Desktop\projekt3\build\opencv\modules\imgcodecs;C:\Users\michal\Desktop\projekt3\opencv\modules\core\include;C:\Users\michal\Desktop\projekt3\opencv\modules\imgproc\include;C:\Users\michal\Desktop\projekt3\build;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openexr\Half;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openexr\Iex;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openexr\IlmThread;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openexr\Imath;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openexr\IlmImf;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\openexr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\zlib;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\zlib;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openjpeg\openjp2;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\openjpeg\openjp2;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libpng;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libwebp\src;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libjpeg-turbo;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libjpeg-turbo\src;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\ippicv\ippicv_win\icv\include;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\ippicv\ippicv_win\iw\include;C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src;C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\include;C:\Users\michal\Desktop\projekt3\build\opencv\modules\imgcodecs;C:\Users\michal\Desktop\projekt3\opencv\modules\core\include;C:\Users\michal\Desktop\projekt3\opencv\modules\imgproc\include;C:\Users\michal\Desktop\projekt3\build;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openexr\Half;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openexr\Iex;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openexr\IlmThread;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openexr\Imath;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openexr\IlmImf;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\openexr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Debug\opencv_imgproc490d.lib;..\..\3rdparty\lib\Debug\ippiwd.lib;..\..\3rdparty\ippicv\ippicv_win\icv\lib\intel64\ippicvmt.lib;..\..\3rdparty\lib\Debug\libjpeg-turbod.lib;..\..\3rdparty\lib\Debug\libwebpd.lib;..\..\3rdparty\lib\Debug\libpngd.lib;..\..\3rdparty\lib\Debug\libtiffd.lib;..\..\3rdparty\lib\Debug\libopenjp2d.lib;..\..\3rdparty\lib\Debug\IlmImfd.lib;..\..\3rdparty\lib\Debug\zlibd.lib;..\..\lib\Debug\opencv_core490d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>libc;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/michal/Desktop/projekt3/build/opencv/lib/Debug/opencv_imgcodecs490d.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/michal/Desktop/projekt3/build/bin/Debug/opencv_imgcodecs490d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\zlib;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\zlib;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openjpeg\openjp2;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\openjpeg\openjp2;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libpng;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libwebp\src;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libjpeg-turbo;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libjpeg-turbo\src;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\ippicv\ippicv_win\icv\include;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\ippicv\ippicv_win\iw\include;C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src;C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\include;C:\Users\michal\Desktop\projekt3\build\opencv\modules\imgcodecs;C:\Users\michal\Desktop\projekt3\opencv\modules\core\include;C:\Users\michal\Desktop\projekt3\opencv\modules\imgproc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/michal/Desktop/projekt3/build" /external:I "C:/Users/michal/Desktop/projekt3/opencv/3rdparty/openexr/Half" /external:I "C:/Users/michal/Desktop/projekt3/opencv/3rdparty/openexr/Iex" /external:I "C:/Users/michal/Desktop/projekt3/opencv/3rdparty/openexr/IlmThread" /external:I "C:/Users/michal/Desktop/projekt3/opencv/3rdparty/openexr/Imath" /external:I "C:/Users/michal/Desktop/projekt3/opencv/3rdparty/openexr/IlmImf" /external:I "C:/Users/michal/Desktop/projekt3/build/opencv/3rdparty/openexr" /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589;4819</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/opencv_imgcodecs.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;HAVE_WEBP;HAVE_IMGCODEC_HDR;HAVE_IMGCODEC_SUNRASTER;HAVE_IMGCODEC_PXM;HAVE_IMGCODEC_PFM;__OPENCV_BUILD=1;OPJ_STATIC;CMAKE_INTDIR="Release";CVAPI_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ProgramDataBaseFileName>C:\Users\michal\Desktop\projekt3\build\opencv\lib\Release\opencv_imgcodecs490.pdb</ProgramDataBaseFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;HAVE_WEBP;HAVE_IMGCODEC_HDR;HAVE_IMGCODEC_SUNRASTER;HAVE_IMGCODEC_PXM;HAVE_IMGCODEC_PFM;__OPENCV_BUILD=1;OPJ_STATIC;CMAKE_INTDIR=\"Release\";CVAPI_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\zlib;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\zlib;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openjpeg\openjp2;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\openjpeg\openjp2;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libpng;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libwebp\src;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libjpeg-turbo;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libjpeg-turbo\src;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\ippicv\ippicv_win\icv\include;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\ippicv\ippicv_win\iw\include;C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src;C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\include;C:\Users\michal\Desktop\projekt3\build\opencv\modules\imgcodecs;C:\Users\michal\Desktop\projekt3\opencv\modules\core\include;C:\Users\michal\Desktop\projekt3\opencv\modules\imgproc\include;C:\Users\michal\Desktop\projekt3\build;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openexr\Half;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openexr\Iex;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openexr\IlmThread;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openexr\Imath;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openexr\IlmImf;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\openexr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\zlib;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\zlib;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openjpeg\openjp2;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\openjpeg\openjp2;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libpng;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libwebp\src;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libjpeg-turbo;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libjpeg-turbo\src;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\ippicv\ippicv_win\icv\include;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\ippicv\ippicv_win\iw\include;C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src;C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\include;C:\Users\michal\Desktop\projekt3\build\opencv\modules\imgcodecs;C:\Users\michal\Desktop\projekt3\opencv\modules\core\include;C:\Users\michal\Desktop\projekt3\opencv\modules\imgproc\include;C:\Users\michal\Desktop\projekt3\build;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openexr\Half;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openexr\Iex;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openexr\IlmThread;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openexr\Imath;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openexr\IlmImf;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\openexr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Release\opencv_imgproc490.lib;..\..\3rdparty\lib\Release\ippiw.lib;..\..\3rdparty\ippicv\ippicv_win\icv\lib\intel64\ippicvmt.lib;..\..\3rdparty\lib\Release\libjpeg-turbo.lib;..\..\3rdparty\lib\Release\libwebp.lib;..\..\3rdparty\lib\Release\libpng.lib;..\..\3rdparty\lib\Release\libtiff.lib;..\..\3rdparty\lib\Release\libopenjp2.lib;..\..\3rdparty\lib\Release\IlmImf.lib;..\..\3rdparty\lib\Release\zlib.lib;..\..\lib\Release\opencv_core490.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>libc;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/michal/Desktop/projekt3/build/opencv/lib/Release/opencv_imgcodecs490.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/michal/Desktop/projekt3/build/bin/Release/opencv_imgcodecs490.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\zlib;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\zlib;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openjpeg\openjp2;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\openjpeg\openjp2;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libpng;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libwebp\src;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libjpeg-turbo;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libjpeg-turbo\src;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\ippicv\ippicv_win\icv\include;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\ippicv\ippicv_win\iw\include;C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src;C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\include;C:\Users\michal\Desktop\projekt3\build\opencv\modules\imgcodecs;C:\Users\michal\Desktop\projekt3\opencv\modules\core\include;C:\Users\michal\Desktop\projekt3\opencv\modules\imgproc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/michal/Desktop/projekt3/build" /external:I "C:/Users/michal/Desktop/projekt3/opencv/3rdparty/openexr/Half" /external:I "C:/Users/michal/Desktop/projekt3/opencv/3rdparty/openexr/Iex" /external:I "C:/Users/michal/Desktop/projekt3/opencv/3rdparty/openexr/IlmThread" /external:I "C:/Users/michal/Desktop/projekt3/opencv/3rdparty/openexr/Imath" /external:I "C:/Users/michal/Desktop/projekt3/opencv/3rdparty/openexr/IlmImf" /external:I "C:/Users/michal/Desktop/projekt3/build/opencv/3rdparty/openexr" /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589;4819</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/MinSizeRel/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/opencv_imgcodecs.dir/MinSizeRel/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;HAVE_WEBP;HAVE_IMGCODEC_HDR;HAVE_IMGCODEC_SUNRASTER;HAVE_IMGCODEC_PXM;HAVE_IMGCODEC_PFM;__OPENCV_BUILD=1;OPJ_STATIC;CMAKE_INTDIR="MinSizeRel";CVAPI_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ProgramDataBaseFileName>C:\Users\michal\Desktop\projekt3\build\opencv\lib\MinSizeRel\opencv_imgcodecs490.pdb</ProgramDataBaseFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;HAVE_WEBP;HAVE_IMGCODEC_HDR;HAVE_IMGCODEC_SUNRASTER;HAVE_IMGCODEC_PXM;HAVE_IMGCODEC_PFM;__OPENCV_BUILD=1;OPJ_STATIC;CMAKE_INTDIR=\"MinSizeRel\";CVAPI_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\zlib;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\zlib;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openjpeg\openjp2;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\openjpeg\openjp2;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libpng;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libwebp\src;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libjpeg-turbo;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libjpeg-turbo\src;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\ippicv\ippicv_win\icv\include;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\ippicv\ippicv_win\iw\include;C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src;C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\include;C:\Users\michal\Desktop\projekt3\build\opencv\modules\imgcodecs;C:\Users\michal\Desktop\projekt3\opencv\modules\core\include;C:\Users\michal\Desktop\projekt3\opencv\modules\imgproc\include;C:\Users\michal\Desktop\projekt3\build;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openexr\Half;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openexr\Iex;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openexr\IlmThread;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openexr\Imath;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openexr\IlmImf;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\openexr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\zlib;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\zlib;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openjpeg\openjp2;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\openjpeg\openjp2;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libpng;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libwebp\src;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libjpeg-turbo;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libjpeg-turbo\src;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\ippicv\ippicv_win\icv\include;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\ippicv\ippicv_win\iw\include;C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src;C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\include;C:\Users\michal\Desktop\projekt3\build\opencv\modules\imgcodecs;C:\Users\michal\Desktop\projekt3\opencv\modules\core\include;C:\Users\michal\Desktop\projekt3\opencv\modules\imgproc\include;C:\Users\michal\Desktop\projekt3\build;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openexr\Half;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openexr\Iex;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openexr\IlmThread;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openexr\Imath;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openexr\IlmImf;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\openexr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\MinSizeRel\opencv_imgproc490.lib;..\..\3rdparty\lib\MinSizeRel\ippiw.lib;..\..\3rdparty\ippicv\ippicv_win\icv\lib\intel64\ippicvmt.lib;..\..\3rdparty\lib\MinSizeRel\libjpeg-turbo.lib;..\..\3rdparty\lib\MinSizeRel\libwebp.lib;..\..\3rdparty\lib\MinSizeRel\libpng.lib;..\..\3rdparty\lib\MinSizeRel\libtiff.lib;..\..\3rdparty\lib\MinSizeRel\libopenjp2.lib;..\..\3rdparty\lib\MinSizeRel\IlmImf.lib;..\..\3rdparty\lib\MinSizeRel\zlib.lib;..\..\lib\MinSizeRel\opencv_core490.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>libc;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/michal/Desktop/projekt3/build/opencv/lib/MinSizeRel/opencv_imgcodecs490.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/michal/Desktop/projekt3/build/bin/MinSizeRel/opencv_imgcodecs490.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\zlib;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\zlib;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openjpeg\openjp2;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\openjpeg\openjp2;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libpng;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libwebp\src;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libjpeg-turbo;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libjpeg-turbo\src;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\ippicv\ippicv_win\icv\include;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\ippicv\ippicv_win\iw\include;C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src;C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\include;C:\Users\michal\Desktop\projekt3\build\opencv\modules\imgcodecs;C:\Users\michal\Desktop\projekt3\opencv\modules\core\include;C:\Users\michal\Desktop\projekt3\opencv\modules\imgproc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/michal/Desktop/projekt3/build" /external:I "C:/Users/michal/Desktop/projekt3/opencv/3rdparty/openexr/Half" /external:I "C:/Users/michal/Desktop/projekt3/opencv/3rdparty/openexr/Iex" /external:I "C:/Users/michal/Desktop/projekt3/opencv/3rdparty/openexr/IlmThread" /external:I "C:/Users/michal/Desktop/projekt3/opencv/3rdparty/openexr/Imath" /external:I "C:/Users/michal/Desktop/projekt3/opencv/3rdparty/openexr/IlmImf" /external:I "C:/Users/michal/Desktop/projekt3/build/opencv/3rdparty/openexr" /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589;4819</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/RelWithDebInfo/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/opencv_imgcodecs.dir/RelWithDebInfo/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;HAVE_WEBP;HAVE_IMGCODEC_HDR;HAVE_IMGCODEC_SUNRASTER;HAVE_IMGCODEC_PXM;HAVE_IMGCODEC_PFM;__OPENCV_BUILD=1;OPJ_STATIC;CMAKE_INTDIR="RelWithDebInfo";CVAPI_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:\Users\michal\Desktop\projekt3\build\opencv\lib\RelWithDebInfo\opencv_imgcodecs490.pdb</ProgramDataBaseFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;HAVE_WEBP;HAVE_IMGCODEC_HDR;HAVE_IMGCODEC_SUNRASTER;HAVE_IMGCODEC_PXM;HAVE_IMGCODEC_PFM;__OPENCV_BUILD=1;OPJ_STATIC;CMAKE_INTDIR=\"RelWithDebInfo\";CVAPI_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\zlib;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\zlib;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openjpeg\openjp2;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\openjpeg\openjp2;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libpng;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libwebp\src;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libjpeg-turbo;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libjpeg-turbo\src;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\ippicv\ippicv_win\icv\include;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\ippicv\ippicv_win\iw\include;C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src;C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\include;C:\Users\michal\Desktop\projekt3\build\opencv\modules\imgcodecs;C:\Users\michal\Desktop\projekt3\opencv\modules\core\include;C:\Users\michal\Desktop\projekt3\opencv\modules\imgproc\include;C:\Users\michal\Desktop\projekt3\build;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openexr\Half;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openexr\Iex;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openexr\IlmThread;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openexr\Imath;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openexr\IlmImf;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\openexr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\zlib;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\zlib;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openjpeg\openjp2;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\openjpeg\openjp2;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libpng;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libwebp\src;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libjpeg-turbo;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libjpeg-turbo\src;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\ippicv\ippicv_win\icv\include;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\ippicv\ippicv_win\iw\include;C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src;C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\include;C:\Users\michal\Desktop\projekt3\build\opencv\modules\imgcodecs;C:\Users\michal\Desktop\projekt3\opencv\modules\core\include;C:\Users\michal\Desktop\projekt3\opencv\modules\imgproc\include;C:\Users\michal\Desktop\projekt3\build;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openexr\Half;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openexr\Iex;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openexr\IlmThread;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openexr\Imath;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\openexr\IlmImf;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\openexr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\RelWithDebInfo\opencv_imgproc490.lib;..\..\3rdparty\lib\RelWithDebInfo\ippiw.lib;..\..\3rdparty\ippicv\ippicv_win\icv\lib\intel64\ippicvmt.lib;..\..\3rdparty\lib\RelWithDebInfo\libjpeg-turbo.lib;..\..\3rdparty\lib\RelWithDebInfo\libwebp.lib;..\..\3rdparty\lib\RelWithDebInfo\libpng.lib;..\..\3rdparty\lib\RelWithDebInfo\libtiff.lib;..\..\3rdparty\lib\RelWithDebInfo\libopenjp2.lib;..\..\3rdparty\lib\RelWithDebInfo\IlmImf.lib;..\..\3rdparty\lib\RelWithDebInfo\zlib.lib;..\..\lib\RelWithDebInfo\opencv_core490.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>libc;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/michal/Desktop/projekt3/build/opencv/lib/RelWithDebInfo/opencv_imgcodecs490.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/michal/Desktop/projekt3/build/bin/RelWithDebInfo/opencv_imgcodecs490.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/michal/Desktop/projekt3/opencv/modules/imgcodecs/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/michal/Desktop/projekt3 -BC:/Users/michal/Desktop/projekt3/build --check-stamp-file C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\michal\Desktop\projekt3\opencv\cmake\templates\dllmain.cpp.in;C:\Users\michal\Desktop\projekt3\opencv\cmake\templates\vs_version.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\michal\Desktop\projekt3\build\opencv\modules\imgcodecs\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/michal/Desktop/projekt3/opencv/modules/imgcodecs/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/michal/Desktop/projekt3 -BC:/Users/michal/Desktop/projekt3/build --check-stamp-file C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\michal\Desktop\projekt3\opencv\cmake\templates\dllmain.cpp.in;C:\Users\michal\Desktop\projekt3\opencv\cmake\templates\vs_version.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\michal\Desktop\projekt3\build\opencv\modules\imgcodecs\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/michal/Desktop/projekt3/opencv/modules/imgcodecs/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/michal/Desktop/projekt3 -BC:/Users/michal/Desktop/projekt3/build --check-stamp-file C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\michal\Desktop\projekt3\opencv\cmake\templates\dllmain.cpp.in;C:\Users\michal\Desktop\projekt3\opencv\cmake\templates\vs_version.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\michal\Desktop\projekt3\build\opencv\modules\imgcodecs\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/michal/Desktop/projekt3/opencv/modules/imgcodecs/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/michal/Desktop/projekt3 -BC:/Users/michal/Desktop/projekt3/build --check-stamp-file C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\michal\Desktop\projekt3\opencv\cmake\templates\dllmain.cpp.in;C:\Users\michal\Desktop\projekt3\opencv\cmake\templates\vs_version.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\michal\Desktop\projekt3\build\opencv\modules\imgcodecs\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\build\opencv\modules\imgcodecs\CMakeFiles\opencv_imgcodecs.dir\cmake_pch.cxx">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/opencv_imgcodecs.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/opencv_imgcodecs.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/MinSizeRel/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/opencv_imgcodecs.dir/MinSizeRel/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/RelWithDebInfo/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/opencv_imgcodecs.dir/RelWithDebInfo/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\include\opencv2\imgcodecs.hpp" />
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\include\opencv2\imgcodecs\imgcodecs.hpp" />
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\include\opencv2\imgcodecs\imgcodecs_c.h" />
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\include\opencv2\imgcodecs\ios.h" />
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\include\opencv2\imgcodecs\legacy\constants_c.h" />
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\include\opencv2\imgcodecs\macosx.h" />
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\loadsave.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\utils.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\precomp.hpp" />
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\utils.hpp" />
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\grfmt_avif.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\grfmt_base.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\grfmt_bmp.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\grfmt_exr.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\grfmt_gdal.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\grfmt_gdcm.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\grfmt_hdr.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\grfmt_jpeg.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\grfmt_jpeg2000.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\grfmt_jpeg2000_openjpeg.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\grfmt_pam.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\grfmt_pfm.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\grfmt_png.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\grfmt_pxm.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\grfmt_spng.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\grfmt_sunras.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\grfmt_tiff.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\grfmt_webp.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\bitstrm.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\rgbe.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\exif.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\grfmt_avif.hpp" />
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\grfmt_base.hpp" />
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\grfmt_bmp.hpp" />
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\grfmt_exr.hpp" />
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\grfmt_gdal.hpp" />
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\grfmt_gdcm.hpp" />
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\grfmt_hdr.hpp" />
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\grfmt_jpeg.hpp" />
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\grfmt_jpeg2000.hpp" />
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\grfmt_jpeg2000_openjpeg.hpp" />
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\grfmt_pam.hpp" />
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\grfmt_pfm.hpp" />
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\grfmt_png.hpp" />
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\grfmt_pxm.hpp" />
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\grfmt_spng.hpp" />
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\grfmt_sunras.hpp" />
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\grfmt_tiff.hpp" />
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\grfmt_webp.hpp" />
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\grfmts.hpp" />
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\bitstrm.hpp" />
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\rgbe.hpp" />
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\opencv\modules\imgcodecs\src\exif.hpp" />
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\build\cvconfig.h" />
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\build\opencv2\opencv_modules.hpp" />
+    <ResourceCompile Include="C:\Users\michal\Desktop\projekt3\build\opencv\modules\imgcodecs\vs_version.rc">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">NotUsing</PrecompiledHeader>
+    </ResourceCompile>
+    <ClCompile Include="C:\Users\michal\Desktop\projekt3\build\opencv\modules\imgcodecs\opencv_imgcodecs_main.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/michal/Desktop/projekt3/build/opencv/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\build\opencv\modules\imgcodecs\CMakeFiles\opencv_imgcodecs.dir\Debug\cmake_pch.hxx" />
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\build\opencv\modules\imgcodecs\CMakeFiles\opencv_imgcodecs.dir\Release\cmake_pch.hxx" />
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\build\opencv\modules\imgcodecs\CMakeFiles\opencv_imgcodecs.dir\MinSizeRel\cmake_pch.hxx" />
+    <ClInclude Include="C:\Users\michal\Desktop\projekt3\build\opencv\modules\imgcodecs\CMakeFiles\opencv_imgcodecs.dir\RelWithDebInfo\cmake_pch.hxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\michal\Desktop\projekt3\build\ZERO_CHECK.vcxproj">
+      <Project>{0E7AB9A4-9237-3BF1-A594-98C257AC55E5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\openexr\IlmImf.vcxproj">
+      <Project>{B0DC1229-09C3-3F00-BF84-52569D1166FC}</Project>
+      <Name>IlmImf</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\ippiw\ippiw.vcxproj">
+      <Project>{4D6F8A54-364D-357E-AAA8-81A939D778EE}</Project>
+      <Name>ippiw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libjpeg-turbo\libjpeg-turbo.vcxproj">
+      <Project>{3EFE91B3-FA82-3F6D-8A5E-3A34104A529B}</Project>
+      <Name>libjpeg-turbo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\openjpeg\openjp2\libopenjp2.vcxproj">
+      <Project>{6126EB77-0383-3234-A561-3CDBE5B778D8}</Project>
+      <Name>libopenjp2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libpng\libpng.vcxproj">
+      <Project>{F96C5BC4-DEC5-32D5-BC70-69F5C1A280A0}</Project>
+      <Name>libpng</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libtiff\libtiff.vcxproj">
+      <Project>{EB5A7182-C249-3817-9434-E44DA0FFDACB}</Project>
+      <Name>libtiff</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libwebp\libwebp.vcxproj">
+      <Project>{85F1546C-3DA4-3261-9C31-CD83A3B7BA61}</Project>
+      <Name>libwebp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\michal\Desktop\projekt3\build\opencv\modules\core\opencv_core.vcxproj">
+      <Project>{A3E65257-BB68-3CCD-B3B3-0E3414A51CFC}</Project>
+      <Name>opencv_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\michal\Desktop\projekt3\build\opencv\modules\imgproc\opencv_imgproc.vcxproj">
+      <Project>{63DE9DFB-2055-3776-A921-0D48EE619693}</Project>
+      <Name>opencv_imgproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\zlib\zlib.vcxproj">
+      <Project>{22763F97-DB3E-3C55-8650-D9F1396E6DED}</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

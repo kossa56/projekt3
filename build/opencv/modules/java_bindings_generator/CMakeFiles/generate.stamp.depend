@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+C:/Users/michal/Desktop/projekt3/opencv/modules/core/misc/java/src/java/core+Core.jcode.in
+C:/Users/michal/Desktop/projekt3/opencv/modules/java/common.cmake
+C:/Users/michal/Desktop/projekt3/opencv/modules/java/generator/CMakeLists.txt
+C:/Users/michal/Desktop/projekt3/opencv/modules/java/generator/android/java/org/opencv/android/OpenCVLoader.java.in
+C:/Users/michal/Desktop/projekt3/opencv/modules/java/generator/src/java/org/opencv/osgi/OpenCVNativeLoader.java.in

@@ -1,0 +1,1 @@
+C:\Users\michal\Desktop\projekt3\build\opencv\modules\dnn\opencv_dnn_AVX512_SKX.dir\Debug\opencv_dnn_AVX512_SKX.lib

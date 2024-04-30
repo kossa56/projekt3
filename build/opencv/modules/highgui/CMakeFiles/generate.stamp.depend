@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Users/michal/Desktop/projekt3/opencv/cmake/templates/dllmain.cpp.in
+C:/Users/michal/Desktop/projekt3/opencv/cmake/templates/vs_version.rc.in
+C:/Users/michal/Desktop/projekt3/opencv/modules/highgui/CMakeLists.txt
+C:/Users/michal/Desktop/projekt3/opencv/modules/highgui/cmake/plugin.cmake

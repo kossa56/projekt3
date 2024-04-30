@@ -1,0 +1,57 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/michal/Desktop/projekt3/build/opencv/modules/highgui/CMakeFiles/opencv_test_highgui.dir/cmake_pch.cxx"
+		},
+		{
+			"file" : "C:/Users/michal/Desktop/projekt3/opencv/modules/highgui/test/test_gui.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_highgui",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "C:/Users/michal/Desktop/projekt3/opencv/modules/highgui/test/test_main.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_highgui",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "C:/Users/michal/Desktop/projekt3/opencv/modules/highgui/test/test_precomp.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_highgui",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "C:/Users/michal/Desktop/projekt3/build/opencv/modules/highgui/CMakeFiles/opencv_test_highgui.dir/Debug/cmake_pch.hxx"
+		},
+		{
+			"file" : "C:/Users/michal/Desktop/projekt3/build/opencv/modules/highgui/CMakeFiles/opencv_test_highgui.dir/Release/cmake_pch.hxx"
+		},
+		{
+			"file" : "C:/Users/michal/Desktop/projekt3/build/opencv/modules/highgui/CMakeFiles/opencv_test_highgui.dir/MinSizeRel/cmake_pch.hxx"
+		},
+		{
+			"file" : "C:/Users/michal/Desktop/projekt3/build/opencv/modules/highgui/CMakeFiles/opencv_test_highgui.dir/RelWithDebInfo/cmake_pch.hxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Main",
+			"opencv_highgui",
+			"AccuracyTest"
+		],
+		"name" : "opencv_test_highgui"
+	}
+}

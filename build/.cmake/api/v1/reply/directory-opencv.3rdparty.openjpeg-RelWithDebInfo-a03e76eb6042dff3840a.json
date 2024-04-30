@@ -1,0 +1,73 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"ocv_install_3rdparty_licenses"
+		],
+		"files" : 
+		[
+			"opencv/cmake/OpenCVUtils.cmake",
+			"opencv/3rdparty/openjpeg/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 190,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1348,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1348,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "licenses",
+			"destination" : "etc/licenses",
+			"paths" : 
+			[
+				{
+					"from" : "opencv/3rdparty/openjpeg/README.md",
+					"to" : "libopenjp2-README.md"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "licenses",
+			"destination" : "etc/licenses",
+			"paths" : 
+			[
+				{
+					"from" : "opencv/3rdparty/openjpeg/LICENSE",
+					"to" : "libopenjp2-LICENSE"
+				}
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "opencv/3rdparty/openjpeg",
+		"source" : "opencv/3rdparty/openjpeg"
+	}
+}
