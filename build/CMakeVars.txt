@@ -1911,6 +1911,7 @@ OPENCV_DNN_PERF_CLCAFFE=OFF
 OPENCV_DNN_TFLITE=ON
 OPENCV_DOC_INSTALL_PATH=doc
 OPENCV_DOWNLOAD_LOG=C:/Users/michal/Desktop/projekt3/build/opencv/CMakeDownloadLog.txt
+OPENCV_DOWNLOAD_MIRROR_ID=github
 OPENCV_DOWNLOAD_PARAMS=INACTIVITY_TIMEOUT;60;TIMEOUT;600
 OPENCV_DOWNLOAD_PATH=C:/Users/michal/Desktop/projekt3/opencv/.cache
 OPENCV_DOWNLOAD_TRIES_LIST=1
@@ -2699,38 +2700,38 @@ TIFF_VERSION_LINES=#define TIFF_VERSION_CLASSIC 42;#define TIFF_VERSION_BIG 43
 TIFF_VERSION_STRING=4.6.0
 TRY_OUT=Change Dir: 'C:/Users/michal/Desktop/projekt3/build/opencv/CMakeFiles/CMakeTmp'
 
-Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_cef08.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_35df7.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
 Wersja programu MSBuild 17.9.8+b34f75857 dla .NET Framework
-Kompilacja rozpoczęła się 30.04.2024 12:16:30.
+Kompilacja rozpoczęła się 30.04.2024 13:16:35.
 
-Projekt "C:\Users\michal\Desktop\projekt3\build\opencv\CMakeFiles\CMakeTmp\cmTC_cef08.vcxproj" w węźle 1 (domyślne elementy docelowe).
+Projekt "C:\Users\michal\Desktop\projekt3\build\opencv\CMakeFiles\CMakeTmp\cmTC_35df7.vcxproj" w węźle 1 (domyślne elementy docelowe).
 PrepareForBuild:
-  Tworzenie katalogu "cmTC_cef08.dir\Release\".
+  Tworzenie katalogu "cmTC_35df7.dir\Release\".
   Dane wyjściowe ze strukturą są włączone. Formatowanie diagnostyki kompilatora będzie odzwierciedlać hierarchię błędów. Aby uzyskać więcej informacji, zobacz https://aka.ms/cpp/structured-output.
   Tworzenie katalogu "C:\Users\michal\Desktop\projekt3\build\opencv\CMakeFiles\CMakeTmp\Release\".
-  Tworzenie katalogu "cmTC_cef08.dir\Release\cmTC_cef08.tlog\".
+  Tworzenie katalogu "cmTC_35df7.dir\Release\cmTC_35df7.tlog\".
 InitializeBuildStatus:
-  Trwa tworzenie "cmTC_cef08.dir\Release\cmTC_cef08.tlog\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
-  Modyfikowanie "cmTC_cef08.dir\Release\cmTC_cef08.tlog\unsuccessfulbuild".
+  Trwa tworzenie "cmTC_35df7.dir\Release\cmTC_35df7.tlog\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+  Modyfikowanie "cmTC_35df7.dir\Release\cmTC_35df7.tlog\unsuccessfulbuild".
 ClCompile:
-  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.39.33519\bin\HostX64\x64\CL.exe /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /EHa /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cef08.dir\Release\\" /Fd"cmTC_cef08.dir\Release\vc143.pdb" /external:W3 /Gd /TP /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589 /wd4819 /errorReport:queue  /bigobj C:\Users\michal\Desktop\projekt3\opencv\cmake\checks\directml.cpp
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.39.33519\bin\HostX64\x64\CL.exe /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /EHa /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_35df7.dir\Release\\" /Fd"cmTC_35df7.dir\Release\vc143.pdb" /external:W3 /Gd /TP /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589 /wd4819 /errorReport:queue  /bigobj C:\Users\michal\Desktop\projekt3\opencv\cmake\checks\directml.cpp
   Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.39.33523 dla x64
   Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
-  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /EHa /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cef08.dir\Release\\" /Fd"cmTC_cef08.dir\Release\vc143.pdb" /external:W3 /Gd /TP /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589 /wd4819 /errorReport:queue  /bigobj C:\Users\michal\Desktop\projekt3\opencv\cmake\checks\directml.cpp
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /EHa /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_35df7.dir\Release\\" /Fd"cmTC_35df7.dir\Release\vc143.pdb" /external:W3 /Gd /TP /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589 /wd4819 /errorReport:queue  /bigobj C:\Users\michal\Desktop\projekt3\opencv\cmake\checks\directml.cpp
   directml.cpp
 Link:
-  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.39.33519\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\michal\Desktop\projekt3\build\opencv\CMakeFiles\CMakeTmp\Release\cmTC_cef08.exe" /INCREMENTAL:NO /NOLOGO d3d12.lib dxcore.lib directml.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/michal/Desktop/projekt3/build/opencv/CMakeFiles/CMakeTmp/Release/cmTC_cef08.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/michal/Desktop/projekt3/build/opencv/CMakeFiles/CMakeTmp/Release/cmTC_cef08.lib" /MACHINE:X64  /machine:x64 cmTC_cef08.dir\Release\directml.obj
-  cmTC_cef08.vcxproj -> C:\Users\michal\Desktop\projekt3\build\opencv\CMakeFiles\CMakeTmp\Release\cmTC_cef08.exe
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.39.33519\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\michal\Desktop\projekt3\build\opencv\CMakeFiles\CMakeTmp\Release\cmTC_35df7.exe" /INCREMENTAL:NO /NOLOGO d3d12.lib dxcore.lib directml.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/michal/Desktop/projekt3/build/opencv/CMakeFiles/CMakeTmp/Release/cmTC_35df7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/michal/Desktop/projekt3/build/opencv/CMakeFiles/CMakeTmp/Release/cmTC_35df7.lib" /MACHINE:X64  /machine:x64 cmTC_35df7.dir\Release\directml.obj
+  cmTC_35df7.vcxproj -> C:\Users\michal\Desktop\projekt3\build\opencv\CMakeFiles\CMakeTmp\Release\cmTC_35df7.exe
 FinalizeBuildStatus:
-  Usuwanie pliku "cmTC_cef08.dir\Release\cmTC_cef08.tlog\unsuccessfulbuild".
-  Modyfikowanie "cmTC_cef08.dir\Release\cmTC_cef08.tlog\cmTC_cef08.lastbuildstate".
-Kompilowanie projektu "C:\Users\michal\Desktop\projekt3\build\opencv\CMakeFiles\CMakeTmp\cmTC_cef08.vcxproj" wykonane (domyślne elementy docelowe).
+  Usuwanie pliku "cmTC_35df7.dir\Release\cmTC_35df7.tlog\unsuccessfulbuild".
+  Modyfikowanie "cmTC_35df7.dir\Release\cmTC_35df7.tlog\cmTC_35df7.lastbuildstate".
+Kompilowanie projektu "C:\Users\michal\Desktop\projekt3\build\opencv\CMakeFiles\CMakeTmp\cmTC_35df7.vcxproj" wykonane (domyślne elementy docelowe).
 
 Kompilacja powiodła się.
     Ostrzeżenia: 0
     Liczba błędów: 0
 
-Czas, który upłynął: 00:00:00.59
+Czas, który upłynął: 00:00:00.65
 
 
 Threads_FOUND=TRUE

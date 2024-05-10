@@ -11,6 +11,7 @@
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
 
+
 AudioFile <double> audioFile;
 
 #define STRINGIFY(x) #x
@@ -19,7 +20,10 @@ AudioFile <double> audioFile;
 
 using namespace std;
 
-
+int aa()
+{
+    return 5;
+}
 
 //Wizualizacja sygnału z wykorzystaniem biblioteki matplotplusplus
 
@@ -103,7 +107,7 @@ int filtr2d()
     namedWindow("filter2D", WINDOW_NORMAL);
 
     Mat custom2, kernel2, filter2D, filter2D2;
-    filter2D (custom, filter2D, -1, kernel, Point(-1,-1));
+    cv :: filter2D (custom, filter2D, -1, kernel, cv :: Point(-1,-1));
 
     custom.convertTo(custom2, CV_8UC1);
     kernel.convertTo (kernel2, CV_8UC1);
@@ -216,7 +220,7 @@ int wykryj_krawedz()
 
     while (1) 
     {
-        Sobel (img, outputImg, -1, dx, dy, sobelkernelSize, scaleFactor, deltaValue);
+        Sobel (img, outputImg, -1, dx, dy, sobelKernelSize, scaleFactor, deltaValue);
         Laplacian (img, laplace,-1,1,1,0);
 
         int c = waitKey(1);
@@ -298,14 +302,14 @@ int wykryj_krawedz()
 
 PYBIND11_MODULE (projekt3, m)
 {
-
+    m.def ("aa", &aa);
     m.def ("sinus", &sinus);
     m.def ("cosinus", &cosinus );
     m.def ("pilo", &pilo );
     m.def ("prostokat", &prostokat);
     m.def ("audio", &audio);
-    m.def ("filtr2d", &filtr2d);
     m.def ("filtr1d", &filtr1d);
+    m.def ("filtr2d", &filtr2d);
     m.def ("wykryj_krawedz", &wykryj_krawedz);
 
 #ifdef VERSION_INFO
