@@ -88,7 +88,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <AdditionalIncludeDirectories>C:\Users\michal\Desktop\projekt3\matplotplusplus\source;C:\Users\michal\Desktop\projekt3\build\matplotplusplus\source\matplot;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/michal/Desktop/projekt3/matplotplusplus/source/3rd_party/cimg" /external:I "C:/Users/michal/Desktop/projekt3/opencv/3rdparty/libjpeg-turbo/src" /external:I "C:/Users/michal/Desktop/projekt3/opencv/3rdparty/libtiff" /external:I "C:/Users/michal/Desktop/projekt3/build/opencv/3rdparty/libtiff" /external:I "C:/Users/michal/Desktop/projekt3/matplotplusplus/source/3rd_party/nodesoup/include"</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/michal/Desktop/projekt3/opencv/build/include" /external:I "C:/Users/michal/Desktop/projekt3/matplotplusplus/source/3rd_party/cimg" /external:I "C:/Users/michal/Desktop/projekt3/opencv/3rdparty/libjpeg-turbo/src" /external:I "C:/Users/michal/Desktop/projekt3/opencv/3rdparty/libtiff" /external:I "C:/Users/michal/Desktop/projekt3/build/opencv/3rdparty/libtiff" /external:I "C:/Users/michal/Desktop/projekt3/matplotplusplus/source/3rd_party/nodesoup/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -102,16 +102,16 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NOMINMAX;MATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP;cimg_use_jpeg;cimg_use_tiff;cimg_display=2;CMAKE_INTDIR="Debug";matplot_EXPORTS</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NOMINMAX;MATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP;PROJECT_BINARY_DIR="C:/Users/michal/Desktop/projekt3/build";cimg_use_jpeg;cimg_use_tiff;cimg_use_opencv;cimg_display=2;CMAKE_INTDIR="Debug";matplot_EXPORTS</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;NOMINMAX;MATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP;cimg_use_jpeg;cimg_use_tiff;cimg_display=2;CMAKE_INTDIR=\"Debug\";matplot_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\michal\Desktop\projekt3\matplotplusplus\source;C:\Users\michal\Desktop\projekt3\build\matplotplusplus\source\matplot;C:\Users\michal\Desktop\projekt3\matplotplusplus\source\3rd_party\cimg;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libjpeg-turbo\src;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;NOMINMAX;MATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP;PROJECT_BINARY_DIR=\"C:/Users/michal/Desktop/projekt3/build\";cimg_use_jpeg;cimg_use_tiff;cimg_use_opencv;cimg_display=2;CMAKE_INTDIR=\"Debug\";matplot_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\michal\Desktop\projekt3\matplotplusplus\source;C:\Users\michal\Desktop\projekt3\build\matplotplusplus\source\matplot;C:\Users\michal\Desktop\projekt3\opencv\build\include;C:\Users\michal\Desktop\projekt3\matplotplusplus\source\3rd_party\cimg;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libjpeg-turbo\src;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\michal\Desktop\projekt3\matplotplusplus\source;C:\Users\michal\Desktop\projekt3\build\matplotplusplus\source\matplot;C:\Users\michal\Desktop\projekt3\matplotplusplus\source\3rd_party\cimg;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libjpeg-turbo\src;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\michal\Desktop\projekt3\matplotplusplus\source;C:\Users\michal\Desktop\projekt3\build\matplotplusplus\source\matplot;C:\Users\michal\Desktop\projekt3\opencv\build\include;C:\Users\michal\Desktop\projekt3\matplotplusplus\source\3rd_party\cimg;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libjpeg-turbo\src;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -119,7 +119,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\3rd_party\Debug\nodesoup.lib;..\..\..\opencv\3rdparty\lib\Debug\libjpeg-turbod.lib;..\..\..\opencv\3rdparty\lib\Debug\libtiffd.lib;..\..\..\opencv\3rdparty\lib\Debug\zlibd.lib;gdi32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\3rd_party\Debug\nodesoup.lib;libjpeg-turbo.lib;libtiff.lib;zlib.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490d.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490d.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490d.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490d.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490d.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490d.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490d.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490d.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490d.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490d.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490d.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490d.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490d.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490d.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490d.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490d.lib;gdi32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -135,7 +135,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <AdditionalIncludeDirectories>C:\Users\michal\Desktop\projekt3\matplotplusplus\source;C:\Users\michal\Desktop\projekt3\build\matplotplusplus\source\matplot;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/michal/Desktop/projekt3/matplotplusplus/source/3rd_party/cimg" /external:I "C:/Users/michal/Desktop/projekt3/opencv/3rdparty/libjpeg-turbo/src" /external:I "C:/Users/michal/Desktop/projekt3/opencv/3rdparty/libtiff" /external:I "C:/Users/michal/Desktop/projekt3/build/opencv/3rdparty/libtiff" /external:I "C:/Users/michal/Desktop/projekt3/matplotplusplus/source/3rd_party/nodesoup/include"</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/michal/Desktop/projekt3/opencv/build/include" /external:I "C:/Users/michal/Desktop/projekt3/matplotplusplus/source/3rd_party/cimg" /external:I "C:/Users/michal/Desktop/projekt3/opencv/3rdparty/libjpeg-turbo/src" /external:I "C:/Users/michal/Desktop/projekt3/opencv/3rdparty/libtiff" /external:I "C:/Users/michal/Desktop/projekt3/build/opencv/3rdparty/libtiff" /external:I "C:/Users/michal/Desktop/projekt3/matplotplusplus/source/3rd_party/nodesoup/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
@@ -147,18 +147,18 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;MATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP;cimg_use_jpeg;cimg_use_tiff;cimg_display=2;CMAKE_INTDIR="Release";matplot_EXPORTS</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;MATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP;PROJECT_BINARY_DIR="C:/Users/michal/Desktop/projekt3/build";cimg_use_jpeg;cimg_use_tiff;cimg_use_opencv;cimg_display=2;CMAKE_INTDIR="Release";matplot_EXPORTS</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;MATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP;cimg_use_jpeg;cimg_use_tiff;cimg_display=2;CMAKE_INTDIR=\"Release\";matplot_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\michal\Desktop\projekt3\matplotplusplus\source;C:\Users\michal\Desktop\projekt3\build\matplotplusplus\source\matplot;C:\Users\michal\Desktop\projekt3\matplotplusplus\source\3rd_party\cimg;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libjpeg-turbo\src;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;MATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP;PROJECT_BINARY_DIR=\"C:/Users/michal/Desktop/projekt3/build\";cimg_use_jpeg;cimg_use_tiff;cimg_use_opencv;cimg_display=2;CMAKE_INTDIR=\"Release\";matplot_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\michal\Desktop\projekt3\matplotplusplus\source;C:\Users\michal\Desktop\projekt3\build\matplotplusplus\source\matplot;C:\Users\michal\Desktop\projekt3\opencv\build\include;C:\Users\michal\Desktop\projekt3\matplotplusplus\source\3rd_party\cimg;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libjpeg-turbo\src;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\michal\Desktop\projekt3\matplotplusplus\source;C:\Users\michal\Desktop\projekt3\build\matplotplusplus\source\matplot;C:\Users\michal\Desktop\projekt3\matplotplusplus\source\3rd_party\cimg;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libjpeg-turbo\src;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\michal\Desktop\projekt3\matplotplusplus\source;C:\Users\michal\Desktop\projekt3\build\matplotplusplus\source\matplot;C:\Users\michal\Desktop\projekt3\opencv\build\include;C:\Users\michal\Desktop\projekt3\matplotplusplus\source\3rd_party\cimg;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libjpeg-turbo\src;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -166,7 +166,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\3rd_party\Release\nodesoup.lib;..\..\..\opencv\3rdparty\lib\Release\libjpeg-turbo.lib;..\..\..\opencv\3rdparty\lib\Release\libtiff.lib;..\..\..\opencv\3rdparty\lib\Release\zlib.lib;gdi32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\3rd_party\Release\nodesoup.lib;libjpeg-turbo.lib;libtiff.lib;zlib.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;gdi32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -182,7 +182,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
       <AdditionalIncludeDirectories>C:\Users\michal\Desktop\projekt3\matplotplusplus\source;C:\Users\michal\Desktop\projekt3\build\matplotplusplus\source\matplot;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/michal/Desktop/projekt3/matplotplusplus/source/3rd_party/cimg" /external:I "C:/Users/michal/Desktop/projekt3/opencv/3rdparty/libjpeg-turbo/src" /external:I "C:/Users/michal/Desktop/projekt3/opencv/3rdparty/libtiff" /external:I "C:/Users/michal/Desktop/projekt3/build/opencv/3rdparty/libtiff" /external:I "C:/Users/michal/Desktop/projekt3/matplotplusplus/source/3rd_party/nodesoup/include"</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/michal/Desktop/projekt3/opencv/build/include" /external:I "C:/Users/michal/Desktop/projekt3/matplotplusplus/source/3rd_party/cimg" /external:I "C:/Users/michal/Desktop/projekt3/opencv/3rdparty/libjpeg-turbo/src" /external:I "C:/Users/michal/Desktop/projekt3/opencv/3rdparty/libtiff" /external:I "C:/Users/michal/Desktop/projekt3/build/opencv/3rdparty/libtiff" /external:I "C:/Users/michal/Desktop/projekt3/matplotplusplus/source/3rd_party/nodesoup/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
@@ -194,18 +194,18 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;MATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP;cimg_use_jpeg;cimg_use_tiff;cimg_display=2;CMAKE_INTDIR="MinSizeRel";matplot_EXPORTS</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;MATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP;PROJECT_BINARY_DIR="C:/Users/michal/Desktop/projekt3/build";cimg_use_jpeg;cimg_use_tiff;cimg_use_opencv;cimg_display=2;CMAKE_INTDIR="MinSizeRel";matplot_EXPORTS</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;MATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP;cimg_use_jpeg;cimg_use_tiff;cimg_display=2;CMAKE_INTDIR=\"MinSizeRel\";matplot_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\michal\Desktop\projekt3\matplotplusplus\source;C:\Users\michal\Desktop\projekt3\build\matplotplusplus\source\matplot;C:\Users\michal\Desktop\projekt3\matplotplusplus\source\3rd_party\cimg;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libjpeg-turbo\src;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;MATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP;PROJECT_BINARY_DIR=\"C:/Users/michal/Desktop/projekt3/build\";cimg_use_jpeg;cimg_use_tiff;cimg_use_opencv;cimg_display=2;CMAKE_INTDIR=\"MinSizeRel\";matplot_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\michal\Desktop\projekt3\matplotplusplus\source;C:\Users\michal\Desktop\projekt3\build\matplotplusplus\source\matplot;C:\Users\michal\Desktop\projekt3\opencv\build\include;C:\Users\michal\Desktop\projekt3\matplotplusplus\source\3rd_party\cimg;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libjpeg-turbo\src;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\michal\Desktop\projekt3\matplotplusplus\source;C:\Users\michal\Desktop\projekt3\build\matplotplusplus\source\matplot;C:\Users\michal\Desktop\projekt3\matplotplusplus\source\3rd_party\cimg;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libjpeg-turbo\src;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\michal\Desktop\projekt3\matplotplusplus\source;C:\Users\michal\Desktop\projekt3\build\matplotplusplus\source\matplot;C:\Users\michal\Desktop\projekt3\opencv\build\include;C:\Users\michal\Desktop\projekt3\matplotplusplus\source\3rd_party\cimg;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libjpeg-turbo\src;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -213,7 +213,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\3rd_party\MinSizeRel\nodesoup.lib;..\..\..\opencv\3rdparty\lib\MinSizeRel\libjpeg-turbo.lib;..\..\..\opencv\3rdparty\lib\MinSizeRel\libtiff.lib;..\..\..\opencv\3rdparty\lib\MinSizeRel\zlib.lib;gdi32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\3rd_party\MinSizeRel\nodesoup.lib;libjpeg-turbo.lib;libtiff.lib;zlib.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;gdi32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -229,7 +229,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
       <AdditionalIncludeDirectories>C:\Users\michal\Desktop\projekt3\matplotplusplus\source;C:\Users\michal\Desktop\projekt3\build\matplotplusplus\source\matplot;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/michal/Desktop/projekt3/matplotplusplus/source/3rd_party/cimg" /external:I "C:/Users/michal/Desktop/projekt3/opencv/3rdparty/libjpeg-turbo/src" /external:I "C:/Users/michal/Desktop/projekt3/opencv/3rdparty/libtiff" /external:I "C:/Users/michal/Desktop/projekt3/build/opencv/3rdparty/libtiff" /external:I "C:/Users/michal/Desktop/projekt3/matplotplusplus/source/3rd_party/nodesoup/include"</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/michal/Desktop/projekt3/opencv/build/include" /external:I "C:/Users/michal/Desktop/projekt3/matplotplusplus/source/3rd_party/cimg" /external:I "C:/Users/michal/Desktop/projekt3/opencv/3rdparty/libjpeg-turbo/src" /external:I "C:/Users/michal/Desktop/projekt3/opencv/3rdparty/libtiff" /external:I "C:/Users/michal/Desktop/projekt3/build/opencv/3rdparty/libtiff" /external:I "C:/Users/michal/Desktop/projekt3/matplotplusplus/source/3rd_party/nodesoup/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -242,16 +242,16 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;MATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP;cimg_use_jpeg;cimg_use_tiff;cimg_display=2;CMAKE_INTDIR="RelWithDebInfo";matplot_EXPORTS</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;MATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP;PROJECT_BINARY_DIR="C:/Users/michal/Desktop/projekt3/build";cimg_use_jpeg;cimg_use_tiff;cimg_use_opencv;cimg_display=2;CMAKE_INTDIR="RelWithDebInfo";matplot_EXPORTS</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;MATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP;cimg_use_jpeg;cimg_use_tiff;cimg_display=2;CMAKE_INTDIR=\"RelWithDebInfo\";matplot_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\michal\Desktop\projekt3\matplotplusplus\source;C:\Users\michal\Desktop\projekt3\build\matplotplusplus\source\matplot;C:\Users\michal\Desktop\projekt3\matplotplusplus\source\3rd_party\cimg;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libjpeg-turbo\src;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;MATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP;PROJECT_BINARY_DIR=\"C:/Users/michal/Desktop/projekt3/build\";cimg_use_jpeg;cimg_use_tiff;cimg_use_opencv;cimg_display=2;CMAKE_INTDIR=\"RelWithDebInfo\";matplot_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\michal\Desktop\projekt3\matplotplusplus\source;C:\Users\michal\Desktop\projekt3\build\matplotplusplus\source\matplot;C:\Users\michal\Desktop\projekt3\opencv\build\include;C:\Users\michal\Desktop\projekt3\matplotplusplus\source\3rd_party\cimg;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libjpeg-turbo\src;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\michal\Desktop\projekt3\matplotplusplus\source;C:\Users\michal\Desktop\projekt3\build\matplotplusplus\source\matplot;C:\Users\michal\Desktop\projekt3\matplotplusplus\source\3rd_party\cimg;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libjpeg-turbo\src;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\michal\Desktop\projekt3\matplotplusplus\source;C:\Users\michal\Desktop\projekt3\build\matplotplusplus\source\matplot;C:\Users\michal\Desktop\projekt3\opencv\build\include;C:\Users\michal\Desktop\projekt3\matplotplusplus\source\3rd_party\cimg;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libjpeg-turbo\src;C:\Users\michal\Desktop\projekt3\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libtiff;C:\Users\michal\Desktop\projekt3\matplotplusplus\source\3rd_party\nodesoup\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -259,7 +259,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\3rd_party\RelWithDebInfo\nodesoup.lib;..\..\..\opencv\3rdparty\lib\RelWithDebInfo\libjpeg-turbo.lib;..\..\..\opencv\3rdparty\lib\RelWithDebInfo\libtiff.lib;..\..\..\opencv\3rdparty\lib\RelWithDebInfo\zlib.lib;gdi32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\3rd_party\RelWithDebInfo\nodesoup.lib;libjpeg-turbo.lib;libtiff.lib;zlib.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;C:\Users\michal\Desktop\projekt3\opencv\build\x64\vc16\lib\opencv_world490.lib;gdi32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -416,21 +416,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libjpeg-turbo\libjpeg-turbo.vcxproj">
-      <Project>{3EFE91B3-FA82-3F6D-8A5E-3A34104A529B}</Project>
-      <Name>libjpeg-turbo</Name>
-    </ProjectReference>
-    <ProjectReference Include="C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\libtiff\libtiff.vcxproj">
-      <Project>{EB5A7182-C249-3817-9434-E44DA0FFDACB}</Project>
-      <Name>libtiff</Name>
-    </ProjectReference>
     <ProjectReference Include="C:\Users\michal\Desktop\projekt3\build\matplotplusplus\source\3rd_party\nodesoup.vcxproj">
       <Project>{66AE257C-1D28-384F-AC34-E8DD2EB1AA04}</Project>
       <Name>nodesoup</Name>
-    </ProjectReference>
-    <ProjectReference Include="C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\zlib\zlib.vcxproj">
-      <Project>{22763F97-DB3E-3C55-8650-D9F1396E6DED}</Project>
-      <Name>zlib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

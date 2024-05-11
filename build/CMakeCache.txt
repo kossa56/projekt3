@@ -936,7 +936,7 @@ OPENCV_FFMPEG_ENABLE_LIBAVDEVICE:BOOL=OFF
 //Force using 3rdparty code from source
 OPENCV_FORCE_3RDPARTY_BUILD:BOOL=OFF
 
-OPENCV_FOUND:BOOL=FALSE
+OPENCV_FOUND:BOOL=TRUE
 
 //Build G-API with GStreamer support
 OPENCV_GAPI_GSTREAMER:BOOL=OFF
@@ -1026,21 +1026,31 @@ OpenBLAS_INCLUDE_DIR:PATH=OpenBLAS_INCLUDE_DIR-NOTFOUND
 //Path to a library.
 OpenBLAS_LIB:FILEPATH=OpenBLAS_LIB-NOTFOUND
 
+//Path where debug 3rdparty OpenCV dependencies are located
+OpenCV_3RDPARTY_LIB_DIR_DBG:PATH=C:/Users/michal/Desktop/projekt3/opencv/build/x64/vc16/lib
+
+//Path where release 3rdparty OpenCV dependencies are located
+OpenCV_3RDPARTY_LIB_DIR_OPT:PATH=C:/Users/michal/Desktop/projekt3/opencv/build/x64/vc16/lib
+
 //Value Computed by CMake
 OpenCV_BINARY_DIR:STATIC=C:/Users/michal/Desktop/projekt3/build/opencv
-
-OpenCV_CONFIG_PATH:FILEPATH=C:/Users/michal/Desktop/projekt3/matplotplusplus/cmake
 
 //The directory containing a CMake configuration file for OpenCV.
 OpenCV_DIR:PATH=OpenCV_DIR-NOTFOUND
 
-OpenCV_FOUND:BOOL=FALSE
+OpenCV_FOUND:BOOL=TRUE
 
 //The directory containing a CMake configuration file for OpenCV_HAL.
 OpenCV_HAL_DIR:PATH=OpenCV_HAL_DIR-NOTFOUND
 
 //Value Computed by CMake
 OpenCV_IS_TOP_LEVEL:STATIC=OFF
+
+//Path where debug OpenCV libraries are located
+OpenCV_LIB_DIR_DBG:PATH=C:/Users/michal/Desktop/projekt3/opencv/build/x64/vc16/lib
+
+//Path where release OpenCV libraries are located
+OpenCV_LIB_DIR_OPT:PATH=C:/Users/michal/Desktop/projekt3/opencv/build/x64/vc16/lib
 
 //Value Computed by CMake
 OpenCV_SOURCE_DIR:STATIC=C:/Users/michal/Desktop/projekt3/opencv
@@ -1980,7 +1990,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=77
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //noop for ranlib
@@ -2100,6 +2110,8 @@ FFTW_LONGDOUBLE_OPENMP_LIB-ADVANCED:INTERNAL=1
 FFTW_LONGDOUBLE_THREADS_LIB-ADVANCED:INTERNAL=1
 //Details about finding JPEG
 FIND_PACKAGE_MESSAGE_DETAILS_JPEG:INTERNAL=[libjpeg-turbo][C:/Users/michal/Desktop/projekt3/opencv/3rdparty/libjpeg-turbo/src][v()]
+//Details about finding OpenCV
+FIND_PACKAGE_MESSAGE_DETAILS_OpenCV:INTERNAL=[C:/Users/michal/Desktop/projekt3/opencv/build][v4.9.0()]
 //Details about finding PYTHON
 FIND_PACKAGE_MESSAGE_DETAILS_PYTHON:INTERNAL=C:/Users/michal/AppData/Local/Microsoft/WindowsApps/python3.exe3.12.3
 //Details about finding PythonInterp
@@ -2332,7 +2344,11 @@ JAVA_INCLUDE_PATH-ADVANCED:INTERNAL=1
 JAVA_INCLUDE_PATH2-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: JAVA_JVM_LIBRARY
 JAVA_JVM_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: JPEG_INCLUDE_DIR
+JPEG_INCLUDE_DIR-ADVANCED:INTERNAL=1
 JPEG_INCLUDE_DIR:INTERNAL=C:/Users/michal/Desktop/projekt3/opencv/3rdparty/libjpeg-turbo/src
+//ADVANCED property for variable: JPEG_LIBRARY
+JPEG_LIBRARY-ADVANCED:INTERNAL=1
 JPEG_LIBRARY:INTERNAL=libjpeg-turbo
 //ADVANCED property for variable: JPEG_LIBRARY_DEBUG
 JPEG_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
@@ -3194,6 +3210,8 @@ SIZEOF_UNSIGNED_LONG:INTERNAL=4
 SIZEOF_UNSIGNED_LONG_LONG:INTERNAL=8
 //CHECK_TYPE_SIZE: sizeof(unsigned short)
 SIZEOF_UNSIGNED_SHORT:INTERNAL=2
+//ADVANCED property for variable: TIFF_INCLUDE_DIR
+TIFF_INCLUDE_DIR-ADVANCED:INTERNAL=1
 TIFF_INCLUDE_DIR:INTERNAL=C:/Users/michal/Desktop/projekt3/opencv/3rdparty/libtiff;C:/Users/michal/Desktop/projekt3/build/opencv/3rdparty/libtiff
 TIFF_LIBRARY:INTERNAL=libtiff
 //ADVANCED property for variable: TIFF_LIBRARY_DEBUG
@@ -3206,6 +3224,8 @@ VIDEOIO_ENABLE_PLUGINS-ADVANCED:INTERNAL=1
 VIDEOIO_PLUGIN_LIST-ADVANCED:INTERNAL=1
 WEBP_INCLUDE_DIR:INTERNAL=C:/Users/michal/Desktop/projekt3/opencv/3rdparty/libwebp/src
 WEBP_LIBRARY:INTERNAL=libwebp
+//ADVANCED property for variable: ZLIB_INCLUDE_DIR
+ZLIB_INCLUDE_DIR-ADVANCED:INTERNAL=1
 ZLIB_INCLUDE_DIR:INTERNAL=C:/Users/michal/Desktop/projekt3/opencv/3rdparty/zlib;C:/Users/michal/Desktop/projekt3/build/opencv/3rdparty/zlib
 ZLIB_LIBRARY:INTERNAL=zlib
 //ADVANCED property for variable: ZLIB_LIBRARY_DEBUG

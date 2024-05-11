@@ -195,7 +195,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\michal\Desktop\projekt3\build\opencv\3rdparty\zlib\ALL_BUILD.vcxproj">
+    <ProjectReference Include="C:\Users\michal\Desktop\projekt3\build\pybind11\ALL_BUILD.vcxproj">
       <Project>{4CF64DCB-B2C4-3EBE-ABD5-28013372F62E}</Project>
       <Name>ALL_BUILD</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>

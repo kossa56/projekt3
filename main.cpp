@@ -103,7 +103,7 @@ int filtr2d()
     namedWindow("filter2D", WINDOW_NORMAL);
 
     Mat custom2, kernel2, filter2D, filter2D2;
-    filter2D (custom, filter2D, -1, kernel, Point(-1,-1));
+    cv :: filter2D (custom, filter2D, -1, kernel, cv :: Point(-1,-1));
 
     custom.convertTo(custom2, CV_8UC1);
     kernel.convertTo (kernel2, CV_8UC1);
@@ -216,7 +216,7 @@ int wykryj_krawedz()
 
     while (1) 
     {
-        Sobel (img, outputImg, -1, dx, dy, sobelkernelSize, scaleFactor, deltaValue);
+        Sobel (img, outputImg, -1, dx, dy, sobelKernelSize, scaleFactor, deltaValue);
         Laplacian (img, laplace,-1,1,1,0);
 
         int c = waitKey(1);
