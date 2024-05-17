@@ -59,7 +59,171 @@ int audio()
 
 // Filtracja 1D
 
-int filtr1d()
+void filtr_dolno_przepustowy(const string& nazwaPliku, double czestotliwoscOdcieta)
+{
+    using namespace matplot;
+    
+    AudioFile<double> audioFile;
+    audioFile.load(nazwaPliku);
+    
+    vector<double> sygnalWejsciowy = audioFile.samples[0];
+    double czestotliwoscProbkowania = audioFile.getSampleRate();
+    
+    auto dolnoprzepustowy = [&](const vector<double>& sygnal)
+     {
+        vector<double> wynik;
+        wynik.reserve(sygnal.size());
+
+        double alfa = 1.0 / (1.0 + czestotliwoscOdcieta);
+
+        wynik.push_back(sygnal[0]);
+
+        for (size_t i = 1; i < sygnal.size(); ++i) 
+        {
+            double nowaWartosc = alfa * sygnal[i] + (1.0 - alfa) * wynik[i - 1];
+            wynik.push_back(nowaWartosc);
+        }
+
+        return wynik;
+    };
+
+ 
+    vector<double> sygnalWyjsciowy = dolnoprzepustowy(sygnalWejsciowy);
+
+    plot (sygnalWejsciowy);
+    title ("Sygnał Wejściowy");
+    show ();
+
+    plot(sygnalWyjsciowy);
+    title("Sygnał Wyjściowy po Filtracji Dolnoprzepustowej");
+    show();
+}
+
+void filtr_gorno_przepustowy(const string& nazwaPliku, double czestotliwoscOdcieta) 
+{
+    using namespace matplot;
+
+    AudioFile<double> audioFile;
+
+    audioFile.load(nazwaPliku);
+    vector<double> sygnalWejsciowy = audioFile.samples[0];
+
+    double czestotliwoscProbkowania = audioFile.getSampleRate();
+
+    auto gornoprzepustowy = [&](const vector<double>& sygnal) 
+    {
+        vector<double> wynik;
+        wynik.reserve(sygnal.size());
+
+        double alfa = czestotliwoscOdcieta / (czestotliwoscOdcieta + czestotliwoscProbkowania);
+
+        wynik.push_back(sygnal[0]);
+        for (size_t i = 1; i < sygnal.size(); ++i) 
+        {
+            double nowaWartosc = alfa * wynik[i - 1] + alfa * (sygnal[i] - sygnal[i - 1]);
+            wynik.push_back(nowaWartosc);
+        }
+
+        return wynik;
+    };
+
+    vector<double> sygnalWyjsciowy = gornoprzepustowy(sygnalWejsciowy);
+
+    
+    plot(sygnalWejsciowy);
+    title("Sygnał Wejściowy");
+    show();
+
+    plot(sygnalWyjsciowy);
+    title("Sygnał Wyjściowy po Filtracji Górnoprzepustowej");
+    show();
+}
+
+void filtr_srodkowo_przepustowy(const string& nazwaPliku, double czestotliwoscDolna, double czestotliwoscGorna) 
+{
+
+    using namespace matplot;
+
+    AudioFile<double> audioFile;
+    audioFile.load(nazwaPliku);
+
+    vector<double> sygnalWejsciowy = audioFile.samples[0];
+
+    double czestotliwoscProbkowania = audioFile.getSampleRate();
+
+    auto srodkowoprzepustowy = [&](const vector<double>& sygnal) 
+    {
+        vector<double> wynik;
+        wynik.reserve(sygnal.size());
+
+        double alfa1 = czestotliwoscDolna / (czestotliwoscDolna + czestotliwoscProbkowania);
+        double alfa2 = czestotliwoscGorna / (czestotliwoscGorna + czestotliwoscProbkowania);
+
+        wynik.push_back(sygnal[0]);
+
+        for (size_t i = 1; i < sygnal.size(); ++i) 
+        {
+            double nowaWartosc = alfa1 * wynik[i - 1] + alfa2 * (sygnal[i] - sygnal[i - 1]);
+            wynik.push_back(nowaWartosc);
+        }
+
+        return wynik;
+    };
+
+    vector<double> sygnalWyjsciowy = srodkowoprzepustowy(sygnalWejsciowy);
+
+    plot(sygnalWejsciowy);
+    title("Sygnał Wejściowy");
+    show();
+   
+    plot(sygnalWyjsciowy);
+    title("Sygnał Wyjściowy po Filtracji Środkowoprzepustowej");
+    show();
+}
+
+void filtr_srodkowo_zaporowy (const string& nazwaPliku, double czestotliwoscDolna, double czestotliwoscGorna) 
+{
+    using namespace matplot;
+
+    AudioFile<double> audioFile;
+    audioFile.load(nazwaPliku);
+
+    vector<double> sygnalWejsciowy = audioFile.samples[0];
+
+    double czestotliwoscProbkowania = audioFile.getSampleRate();
+
+    auto srodkowozaporowy = [&](const vector<double>& sygnal) 
+    {
+        vector<double> wynik;
+        wynik.reserve(sygnal.size());
+
+        double alfa1 = czestotliwoscDolna / (czestotliwoscDolna + czestotliwoscProbkowania);
+        double alfa2 = czestotliwoscGorna / (czestotliwoscGorna + czestotliwoscProbkowania);
+        wynik.push_back(sygnal[0]);
+
+        for (size_t i = 1; i < sygnal.size(); ++i) 
+        {
+            double nowaWartosc = alfa1 * wynik[i - 1] + alfa2 * (sygnal[i] - sygnal[i - 1]);
+            wynik.push_back(sygnal[i] - nowaWartosc);
+        }
+
+        return wynik;
+    };
+
+    vector<double> sygnalWyjsciowy = srodkowozaporowy(sygnalWejsciowy);
+
+    plot(sygnalWejsciowy);
+    title("Sygnał Wejściowy");
+    show();
+
+    plot(sygnalWyjsciowy);
+    title("Sygnał Wyjściowy po Filtracji Środkowozaporowej");
+    show();
+}
+
+// Filtracja 2D
+
+int filtry2d ()
 {
 
     using namespace cv;
@@ -73,7 +237,8 @@ int filtr1d()
     
     imshow("Median", medianImg);
     imshow("Gaussian", gaussianImg);
-    imshow("Bilateral", bilateralImg); imshow("Input", img); waitKey();
+    imshow("Bilateral", bilateralImg); imshow("Input", img);
+     waitKey();
     imshow("Input", img);
 
     waitKey(0);
@@ -82,9 +247,6 @@ int filtr1d()
 
 }
 
-
-
-// Filtracja 2D
 
 int filtr2d()
 {
@@ -305,9 +467,14 @@ PYBIND11_MODULE (projekt3, m)
     m.def ("pilo", &pilo );
     m.def ("prostokat", &prostokat);
     m.def ("audio", &audio);
+    m.def ("filtry2d", &filtry2d);
     m.def ("filtr2d", &filtr2d);
-    m.def ("filtr1d", &filtr1d);
     m.def ("wykryj_krawedz", &wykryj_krawedz);
+    m.def ("filtr_dolno_przepustowy", &filtr_dolno_przepustowy);
+    m.def ("filtr_gorno_przepustowy", &filtr_gorno_przepustowy);
+    m.def ("filtr_srodkowo_przepustowy", &filtr_srodkowo_przepustowy);
+    m.def ("filtr_srodkowo_zaporowy", &filtr_srodkowo_zaporowy);
+    
 
 #ifdef VERSION_INFO
     m.attr("_version_") = MACRO_STRINGIFY(VERSION_INFO);
